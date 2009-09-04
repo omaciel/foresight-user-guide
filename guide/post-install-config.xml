@@ -1,0 +1,477 @@
+<chapter id="post-install-config">
+	<title>Post Installation Configuration</title>
+
+	<para>The Post Installation Configuration of the &app; will take you through using <literal>sudo</literal>; using PackageKit to update your computer with the latest dates, setting up your video card and enabling 3D effects with Compiz Fusion.</para>
+
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+
+		<sect1 id="using-sudo">
+		<title>Using Sudo</title>
+				<para>
+				<literal>sudo</literal> is a command to allow you, logged in as a normal user, to perform administrative tasks as root, the administrator of your computer.  <guilabel>sudo</guilabel> is short for "superuser do".  A "superuser" is the equivalent of an adminstrator on a Linux computer.  When installing updates, drivers or changing configuration settings, you will often have to perform those taks using the <literal>sudo</literal> command.  You will be prompted for your administrative password to use <literal>sudo</literal>.
+		</para>
+
+		</sect1>
+		
+		
+	<sect1 id="packagekit-update-overview">
+	<title>PackageKit Overview</title>
+	
+	<para>PackageKit is a front end graphical user interface to managing the software on your system.  In Foresight, PackageKit works as a front end for Conary, helping to install and remove software on your computer, as well as manage all necessary updates.</para>
+	
+	<para>PackageKit's primary goal is to unify all the software graphical tools used in different distributions and their package manager's, such as Fedora and OpenSUSE's RPM or Debian and Ubuntu's dpkg.</para>
+	
+	<para>Foresight uses PackageKit in conjuction with Conary to manage system updates, searching for software packages available for installation, and installing and removing software.</para>
+	
+	<para>PackageKit can be found  to install and remove software in <menuchoice><guimenu>Applications</guimenu> <guimenu>Add / Remove Software</guimenu></menuchoice>.
+	</para>
+	
+					<figure id="packagekit-menu">
+		  <title>PackageKit in the GNOME menu</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/pk-menu.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>PackageKit in the GNOME menu</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+	
+	<para>More information on PackageKit is available in  <xref linkend="software"/>. </para>
+		
+		</sect1>
+	
+<!-- ============= Installing the Latest Updates ============================== -->
+		
+		<sect1 id="installing-latest-updates">
+		<title>Installing the latest updates</title>
+		
+			<para><guilabel>Updating using PackageKit </guilabel></para>		
+		
+		<para>After installation, PackageKit will prompt you to install any necessary software updates.  Foresight is a rolling release distribution, which means Foresight provides new versions of the software installed on your computer when available.  Other updates will also include any necessary security updates to keep your system up to date.
+		</para>
+		
+		<para>In the upper right hand corner of your screen, on the panel you will see this icon when updates are available for installation:</para>
+
+		<figure id="packagekit-update-icon">
+		  <title>Updates Available Icon</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/updates-avail-icon.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Updates Available Icon</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+		
+		<para>To install the available updates, left click on the icon:</para>
+		
+				<figure id="click-on-packagekit">
+		  <title>Show and install available updates</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/updates-click.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Show and install updates</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+		
+		<para>When you run updates, you will be prompted for your root (or superuser) password.  Type your password when prompted.</para>
+		
+				<figure id="password">
+		  <title>Entering your password</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/password.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Entering your password</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+		
+		<para>To install the available updates, left click on the icon:</para>
+		
+				<figure id="click-on-packagekit">
+		  <title>Show and install available updates</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/updates-click.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Show and install updates</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+		
+		<para>Click on <guilabel>Show Updates</guilabel> to see what kind of updates are available, such as normal updates or security updates; or click on <guilabel>Update System Now </guilabel>to install all available software updates.  If you choose to view what kind of updates are available, you can see the specific software packages that need to be updated by clicking <guilabel>Show Updates.</guilabel></para>
+		
+						<figure id="show-updates">
+		  <title>Show packages to be updated</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/pk-show-updates.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Show packages to be updated</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+			
+			<para><guilabel>Updating via Terminal </guilabel></para>
+
+			<para>More advanced users comfortable with using a terminal, can also update their system from the command line.  Open a terminal, and type:</para>
+		<para><literal>sudo conary updateall</literal></para>
+
+		<para>If this is the first time you have run "updateall", you may need to be patient.  PackageKit will be running in the background updating it's cache, and running Conary at the command line may be slow due to the PackageKit activity running in the background.
+		</para>
+
+
+		</sect1>
+		
+<!-- ============= Proprietary Codecs ============================== -->
+
+	<sect1 id="proprietary-codecs">
+	<title>Proprietary Codecs</title>
+	
+	<para>Due to patent issues, Foresight does not ship with support for MP3 and DVD.  Depending on the laws of your country, you do have the option to install these codecs.  As Foresight can't know the origin of each user, it is your responsbility to respect the patent laws of your country.</para>
+	
+	<para>To install using PackageKit, click on <menuchoice><guimenu>Applications</guimenu> <guimenu>Add / Remove Software</guimenu></menuchoice>. Search for <literal>codecs</literal> and hit <literal>Enter</literal>.
+	</para>
+	
+		<figure id="install-codecs">
+		  <title>Installing Proprietary Codecs</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/codecs.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Installing Proprietary Codecs</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+		
+		<para>Click on the <literal>group-codecs</literal> package and click <guimenu>Install</guimenu></para>.
+	
+		
+	<para>To install the codecs, from the command line type:</para>
+	
+	<para><literal>sudo conary update group-codecs</literal></para>
+	
+	<para><guilabel>Included Codecs</guilabel></para>
+	
+	<para>Codecs and support for audio and video files included in group-codecs:</para>
+	
+	<itemizedlist mark="bullet">
+	<listitem><para>
+	a52dec: A free library for decoding ATSC streams, including digital television and DVD, also known as AC-3.</para></listitem>
+	<listitem><para>
+	faac and faad2: AAC audio support.  (Does not include support for DRM wrapped AAC files, such as those purchased from iTunes.</para></listitem> 
+	<listitem><para>
+	gst-plugins-bad: A set of proprietary plug-ins that are a work in progress that support various audio and video codecs.</para></listitem>
+	<listitem><para>
+	gst-plugins-ffmpeg: FFmpeg adds support for playing, editing and transcoding many different kinds of Video files, including AVI, Divx and Xvid, MPEG-2 and MPEG-4.</para></listitem>
+	<listitem><para>
+	gst-plugins-ugly: A set of proprietary plugins not legal in all countries, including audio and video codecs, including DVD playback.</para></listitem>
+	<listitem><para>
+	LAME: MP3 encoder.</para></listitem>
+	<listitem><para>
+	libdv: The Quasar DV codec for DV video used by most digital camcorders, typically that support IEEE 1394 / Firewire.</para></listitem>
+	<listitem><para>
+	libdvdread: DVD support fo playback of encrypted DVDs, such as most commerical movies.</para></listitem>
+	<listitem><para>
+	libid3tag: MP3 playback and ID3 tag support.</para></listitem>
+	<listitem><para>
+	libmpcdec: Support for Musepack (or MPC) files, formerly known as MPEGplus, MPEG+ or MP+.</para></listitem>
+	<listitem><para>
+	mpeg2dec: A program to decode MPEG-1 and MPEG-2 video streams.</para></listitem>
+	<listitem><para>
+	mplayerplug-in: A browser plugin (For Epiphany and Firefox) that streams audio and video right in your browser.</para></listitem>
+	
+	</itemizedlist>
+	
+	</sect1>
+
+<!-- ============= Video Card Drivers ============================== -->
+
+	<sect1 id="video-card-drivers">
+	<title>Video Card Binary Drivers</title>
+
+		<para><guilabel>ATI Users</guilabel></para>
+				
+				
+		<para>ATI users have two choices of a video card driver.  Users can use the open source <guilabel>Radeon</guilabel> driver, which will provide a 2D driver compatible with Compiz or ATI's proprietary binary driver that also does 3D, used primarily by gamers.</para>	
+		
+		<para><guilabel>Installing the Radeon Driver</guilabel></para>
+		
+				<para>The drivers are already installed, you just need to configure xorg.conf appropriately.  Since you need to update this as an administrator, you will need to use a terminal.  Click on <menuchoice><guimenu>Applications</guimenu> <guimenu>Accessories</guimenu> <guimenu>Terminal</guimenu></menuchoice></para>
+
+		<programlisting>
+		sudo gedit /etc/X11/xorg.conf 
+		</programlisting>
+
+		<para>Replace the <guilabel>vesa</guilabel> driver with the <guilabel>radeon</guilabel> driver in the Device section:</para>
+			
+			<programlisting>
+			Section "Device" 
+			Driver      "radeon" 
+			</programlisting>
+
+	<para>Click <guilabel>Save</guilabel> and close the text editor.  You will then need to reboot or restart your GNOME session by hitting <guilabel>Control-Alt-Backspace</guilabel> at the same time.</para>
+	
+		<para><guilabel>Installing ATI's proprietary driver</guilabel></para>
+
+		<para>To install the drivers, you need to install the following packages in PackageKit or from the command line:</para>
+		
+		<para>Open PackageKit.  Click on <menuchoice><guimenu>Applications</guimenu> <guimenu>Add/Remove Software</guimenu></menuchoice> and search for <emphasis>ati</emphasis>.  Install both the <literal>ati-fglrx</literal> and <literal>ati-fglrx-kernel</literal> packages.</para>
+
+		<programlisting>
+		sudo conary update ati-fglrx ati-fglrx-kernel
+		</programlisting>
+
+		<para>Once this is done, you will need to update xorg.conf. ATI provides aticonfig to do this. For users running only one monitor, this is as easy as running the following command:</para>
+
+		<programlisting>
+		sudo aticonfig --initial --input=/etc/X11/xorg.conf
+		</programlisting>
+
+		<para>For users running multiple monitors (dual head or more), see the documentation for aticonfig.
+		</para>
+		
+		<para><guilabel>Nvidia Users</guilabel></para>
+		
+		<para>Using Add / Remove Software, <menuchoice><guimenu>System</guimenu> <guimenu>Administration</guimenu> <guimenu>Add / Remove Software</guimenu> </menuchoice> and search for <emphasis>nvidia</emphasis>.  Install the nvidia package and nvidia-kernel package.  If more than one of each appear after you search, choose the one with the higher version number, and make sure the number chosen matches for both packages</para>
+
+		<para>To install in a terminal using the command line, type:</para>
+		
+		<programlisting>
+		sudo conary update nvidia nvidia-kernel
+		</programlisting>
+		
+		<para>Now run Nvidia's configuration tool from a terminal:</para>
+		<programlisting>
+		sudo nvidia-xconfig 
+		</programlisting>
+
+		<para>To enable Compiz Fusion to work with Nvidia, edit the video card device section of /etc/X11/xorg.conf as sudo:</para>
+		
+		<para>From the command line, type:</para>
+		
+		<programlisting>sudo gedit /etc/X11/xorg.conf</programlisting>
+
+		<programlisting> 
+		Section "Device"
+		Identifier "Videocard0" 
+		Driver "nvidia" 
+		VendorName "nvidia" 
+		BoardName "nvidia" 
+		Option "DigitalVibrance" "64" 
+		Option "DisableGLXRootClipping" "True" 
+		Option "XvmcUsesTextures" "true" 
+		Option "AllowGLXWithComposite" "true" 
+		Option "Coolbits" "1" 
+		Option "RenderAccel" "true" 
+		Option "NoLogo" "true" 
+		Option "AddARGBGLXVisuals" "True" 
+		EndSection 
+		</programlisting>
+
+		<para><guilabel>Non-binary Intel drivers</guilabel></para>
+
+		<para>The drivers are already installed, you just need to configure xorg.conf appropriately.  Since you need to update this as an administrator, you will need to use a terminal.  Click on <menuchoice><guimenu>Applications</guimenu> <guimenu>Accessories</guimenu> <guimenu>Terminal</guimenu></menuchoice></para>
+
+		<programlisting>
+		sudo gedit /etc/X11/xorg.conf 
+		</programlisting>
+
+		<para>Overwrite the entire device section with this:</para>
+			
+			<programlisting>
+			Section "Device" 
+    		Identifier  "Videocard0" 
+			Driver      "intel" 
+			VendorName  "Intel" 
+			BoardName   "Intel Integrated i810" 
+			Option      "XAANoOffscreenPixmaps"  "true" 
+			Option      "NoAccel"  "false" 
+			Option      "DRI"  "true" 
+			#   VideoRam    12384 
+			EndSection 
+			</programlisting>
+
+	<para>Click <guilabel>Save</guilabel> and close the text editor.  You will then need to reboot or restart your GNOME session by hitting <guilabel>Control-Alt-Backspace</guilabel> at the same time.</para>
+		
+
+		<para><guilabel>Post-Installation</guilabel></para>
+
+		<para>Once you have installed the drivers and configured them, you will need to logout of your current GNOME session.  You will need to reboot or restart your GNOME session by hitting <guilabel>Control-Alt-Backspace</guilabel> at the same time.</para>
+
+		
+	</sect1>
+
+<!-- ============= Compiz ============================== -->
+
+	<sect1 id="compiz-fusion">
+	<title>Compiz, 3D Effects for your Desktop</title>
+
+				<para>What is Compiz and Compiz Fusion? Compiz enables the 3D desktop, and Compiz Fusion is a collection of 3D plugins.  From the Compiz Fusion website:</para>
+				
+				<para><guilabel>"Compiz Fusion aims to provide an easy and fun-to-use windowed environment, allowing use of the graphics hardware to render each individual window and the entire screen, to provide some impressive effects, speed and usefulness."
+				</guilabel></para>
+
+				<para>Compiz Fusion enables a fully rendered 3d desktop, including animations when you open or close an application, such as fire, wobbly windows, and a rotating 3d cube when switching workspaces.  To learn more about Compiz Fusion, visit the <ulink url="http://www.compiz-fusion.org/" type="http">Compiz Fusion home page</ulink> or see it in action.
+ 				</para>  
+
+				<para>To start Compiz, assuming you are using a 3D capable driver, press <menuchoice><guimenuitem>Alt</guimenuitem> <guimenuitem>F2</guimenuitem></menuchoice> to bring up the run dialog, and enter <guilabel>compiz</guilabel>.</para>
+				
+				<para>To start Compiz every time you log in to your GNOME session, you will need to add it to your session.  From the GNOME Panel, click <menuchoice><guimenuitem>System</guimenuitem> <guimenuitem>Preferences</guimenuitem> <guimenuitem>Sessions</guimenuitem></menuchoice> and click <guilabel>Add</guilabel>.</para>
+				
+				<figure id="sessions">
+		  <title>Add to Sessions</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/sessions.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Add to your session</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>		
+		
+		<para>In the <guilabel>Name</guilabel> field enter <guilabel>Compiz</guilabel> and in the <guilabel>Command</guilabel> enter <guilabel>compiz</guilabel>.  This is case sensitive.  Compiz will now start every time you log in to Foresight.</para>	
+		
+				<figure id="sessions-edit">
+		  <title>Edit Sessions</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/session-edit.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Add a command to your session</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>				
+		
+		</sect1>
+		
+<!-- ============= Wireless ============================== -->	
+		
+		<sect1 id="wifi-wireless">
+			<title>Wifi and Wireless</title>
+
+		<para>Foresight Linux comes with Network Manager installed by default.  Installing wireless drivers is outside the scope of this guide, but Foresight Linux does come with Intel's binary drivers included by default, madwifi for Atheros cards, and ndiswrapper for wireless cards with Windows only drivers.
+		</para>
+		
+		<para>Assuming your wireless card is working, double click the Network Manager icon in the upper right corner of your panel.  Choose the name of the wireless newtork you wish to connect to, and enter the WEP key if necessary.  Network Manager will then automatically connect, and re-connect at reboot in the future. 
+		</para>
+		<para>The first time you enter a WEP key, you will be prompted to create a GNOME-Keyring password.  GNOME-Keyring manages all the passwords on your system.  Every time you log in, you will be promoted for this password, which will then enable WEP for you automatically upon login.</para>
+
+	
+				
+	</sect1>
+
+<!-- ============= GNOME Panel ============================== -->	
+
+		<sect1 id="gnome-panel">
+			<title>GNOME Panel</title>
+
+		<para>You can customize your GNOME panel by adding applets to it.  To add applets, right click on your panel (either top or bottom, your choice), and click "Add to Panel".  Popular applets to add to your panel include:
+		</para>
+
+
+		<para><guilabel>Tomboy Notes</guilabel></para>
+
+
+		<para>Tomboy is a simple and easy to use not taking application.  Tomboy's features include highlighting text, inline spelll checking, auto-linking web and email addresses, undo/redo, font styling and sizing. bulleted lists, and pinning notes.  Tomboy also features the ability to add plugins.
+		</para>
+
+
+		<para><guilabel>Deskbar</guilabel></para>
+
+		<para>Deskbar is a powerful applet to let you search for many different things, including files on your computer using Beagle, web searches using different search engines, launch programs directly, search documentation, and even search your email. 
+		</para>
+
+		<para>Right click on your panel, and add the Deskbar applet.  The default is to add the Deskbar icon to your panel:
+		Click on the icon, and a search area will appear, type your query and hit enter, then click on the method of your search.
+		</para>
+
+		<figure id="deskbar-small">
+		  <title>Default Deskbar Icon</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/deskbar-icon.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Deskbar Default Icon</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+
+		<para>You can change the appearance of Deskbar on your panel, so you can have a field to directly type your queries in, which looks like this:.
+		</para>
+
+		<figure id="deskbar-entry">
+		  <title>Default Deskbar Icon</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/deskbar-entry.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Deskbar Entry Icon</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+ 
+		<para>Right click on the Deskbar applet, choose Preferences.  Click on the View tab, and click on the radio button for Entry in Panel. 
+		</para>
+ 
+		<para><guilabel>System Monitor</guilabel>
+		</para>
+
+		<para>When adding the System Monitor applet, it defaults to showing the CPU load of your computer.  You can also add memory, network, swap, load and harddisk monitors by right clicking on the applet on your panel, and then choosing the checkbox of the monitor you'd like to add.
+		</para>
+
+		<para><guilabel>Laptop and Notebooks</guilabel></para>
+
+		<para>There are a number of tools you can add to your laptop to monitor performance.
+		</para>
+
+		<para><guilabel>Battery Charge Monitor</guilabel>
+		</para>
+
+		<para>Monitor how much battery power remaining in your laptop.
+		</para>
+
+		<para><guilabel>Brightness Applet</guilabel>
+		</para>
+
+		<para>Adjust the brightness of your your laptop's screen to help conserve battery power.
+		</para>
+
+		<para><guilabel>Laptop Temperature Monitor</guilabel>
+		</para>
+
+		<para>Monitor the CPU temperature of your laptop to avoid overheating.
+		</para>
+	
+		</sect1>
+				
+	
+</chapter>

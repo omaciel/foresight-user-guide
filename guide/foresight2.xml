@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+  <!ENTITY HELP SYSTEM "help.xml">
+  <!ENTITY PREFACE SYSTEM "preface.xml">
+  <!ENTITY date "June 2007">
+  <!ENTITY foresightversion "1.3">
+  <!ENTITY manrevision "0.9">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta 
+  Template last modified Apr 11, 2002
+"/usr/local/share/docbookdtd//docbookx.dtd"  
+-->
+<book id="frontmatter"> 
+  <title>GNOME Documentation Style Guide V&manrevision;</title> 
+  <titleabbrev>GNOME-STYLE</titleabbrev> 
+  <bookinfo> 
+
+  </bookinfo>
+  &PREFACE;
+&HELP;
+
+</book> 

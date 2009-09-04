@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Foresight User Guide
+Comment=Learn more about Foresight
+Exec=/usr/bin/foresight-user-guide
+Icon=foresight-icon
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Core;
+OnlyShowIn=GNOME;

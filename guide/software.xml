@@ -1,0 +1,287 @@
+<chapter id="software">
+	<title>Adding and Removing Software</title>
+		<para>This chapter provides a high level overview of Conary, installing the latest updates, searching for packages, adding packages, removing packages and adding a build environment to install custom software. 
+		</para>
+
+<!-- ============= Document Body ============================= -->
+	
+<!-- ============= Conary Overview ============================== -->
+
+	<sect1 id="conary-overview">
+	<title>Conary Overview</title>
+	
+	<para><guilabel>Conary</guilabel> is a distributed software management system developed by rPath.  Conary is a package manager similar to dpkg or rpm, in that it will install or remove software on your computer, query which versions of software are installed, or help find an available package for installation.  One key differentiator of Conary not found in other package managers, that after the intitial download of a package, updates are faster as Conary only downloads the updates to the file, and doesn't require a full binary for download.
+	</para>
+	<para>Conary also features the ability to rollback (or undo) updates, from the last update made, or all updates ever made or even somewhere in between.</para>
+	
+	<para>For instance lets say you want to install the Apache webserver package. You could do so by typing the following in a terminal:</para>
+	
+	<literal>sudo conary update httpd</literal>
+	
+	<para>Then (assuming that this was the last update you did) you can roll it back with the following:</para>
+	
+	<literal>sudo conary rb 1</literal>
+	
+	<para>Conary can also show you what can be rolled back as well. To get this list just run:</para>
+	
+	<literal>sudo conary rblist</literal>
+	
+	<para>Conary does require an active internet connection.</para>
+	
+	
+	</sect1>
+	
+<!-- ============= PackageKit Overview ============================== -->	
+
+	<sect1 id="packagekit-overview">
+	<title>Package Kit Overview</title>
+
+	<para>PackageKit is a front end graphical user interface to managing the software on your system.  In Foresight, PackageKit works as a front end for Conary, helping to install and remove software on your computer, as well as manage all necessary updates.</para>
+	
+	<para>PackageKit's primary goal is to unify all the software graphical tools used in different distributions and their package manager's, such as Fedora and OpenSUSE's RPM or Debian and Ubuntu's dpkg.</para>
+	
+						<figure id="Package Kit">
+		  <title>Package Kit</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/pk-normalupdates.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Package Kit</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+	
+		<para>PackageKit can be found  to install and remove software in <menuchoice><guimenu>Applications</guimenu> <guimenu>Add / Remove Software</guimenu></menuchoice>.
+	</para>
+	
+					<figure id="packagekit-menu">
+		  <title>PackageKit in the GNOME menu</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/pk-menu.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>PackageKit in the GNOME menu</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+	
+	</sect1>
+	
+<!-- ============= System Updates ============================== -->
+
+	<sect1 id="system-updates">
+	<title>Updating with Package Kit</title>
+
+	<para><guilabel>Updating using PackageKit</guilabel></para>
+	
+	<para>After logging in to your computer, PackageKit will automatically start and inform you of any necessary updates in the notification area of your panel.	
+	</para>
+	
+				<figure id="Package Kit Updates Available Icon">
+		  <title>Package Kit</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/updates-avail-icon.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Package Kit Updates Available Icon</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+	
+	<para>Using your mouse, left click on the PackageKit Icon and click <guilabel>Update System Now</guilabel> to update your computer with the latest updates.  To see what packages need updates, left click on Show Updates.
+	</para>
+
+			<figure id="Click on Updates">
+		  <title>Package Kit</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/updates-click.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Click on Updates</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+		
+		<para>The first time you update your system, you will be prompted for your administrative password.</para>
+		
+			<figure id="Enter Password">
+		  <title>Enter Password</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/password.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Enter Password</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+		
+		<para>You also have the choice of seeing the updates available by package.  Click on the Package Kit icon, and then click <guilabel>Show Updates.</guilabel>  After reviewing the packages available for updating, click <guilabel>Update System</guilabel> to begin installing the latest updates.</para>
+
+			<figure id="Show Updates">
+		  <title>Show Updates</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/pk-show-updates.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Show Updates</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+		
+	</sect1>
+	
+<!-- ============= Updating Using the Command Line ============================== -->
+	
+	<sect1 id="updating-command-line">
+	<title>Updating via the command line</title>
+	
+	<para><guilabel>Updating via Terminal</guilabel></para>
+	
+	<para>Advanced users or users more comfortable using a terminal to perform administrative tasks can also update their system from a terminal.  Open a terminal, and type:
+	</para>
+	
+	<para><literal>sudo conary updateall</literal></para>
+	
+	<para>If this is the first time you have run <literal>updateall</literal>, you may need to be patient.  The first time you run conary updateall will take longer than normal as Conary calculates the packages and versions currently installed..  Choose <literal>Y</literal> when asked if you want to update the list of packages shown in the terminal output.</para>
+	
+		
+	</sect1>
+	
+<!-- ============= Searching for software ============================== -->
+
+	<sect1 id="searching-for-software">
+	<title>Searching and Adding Software</title>	
+	
+	<para></para>
+	
+	<para>If you don't know the name of the package you want to install, the easiest way to search to see if the package is available for installation, is to search using Package Kit.  Click on <menuchoice><guimenu>System</guimenu> <guimenu>Administration</guimenu> <guimenu>Add / Remove Software</guimenu></menuchoice>.  In the search box, type the name of the software package you are looking for.  
+	</para>
+	
+			<figure id="Package Search">
+		  <title>Searching for Packages</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/Screenshot-Add-Remove Software-1.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Searching for packages</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+		
+	<para>A package that is grayed out is not installed on your computer.  To install the package click on the <guilabel>Install</guilabel> button.</para>	
+	
+	<para>Package metadata and the ability to search for software through groups are in the roadmap for PackageKit updates with Conary.  Metadata will add the ability to search for "image editing" and a list of all graphics editors will be presented.  Searching via groups will present you with "Graphics and Image Editors" and all the programs that can edit images will be listed and let you choose one or more to install.</para>
+	
+	<para><guilabel>Searching rBuilder Online</guilabel></para>
+		
+	<para>Another option to search for packages, is to search using Foresight's repository on rpath.org using your web browser: <ulink url="http://www.rpath.org/rbuilder/repos/foresight/browse" type="http">http://www.rpath.org/rbuilder/repos/foresight/browse</ulink>. Packages are sorted by letter. Once you have found the package you want to install, see the next section, <guilabel>Adding Software</guilabel>.  The following figure shows the search results for <literal>GIMP</literal>.
+	</para>
+	
+	<para><guilabel>Searching and Installing from the command line</guilabel></para>
+	
+	<para>To search from the Foresight repository using the command line, and you will need to know the exact package name, type:
+	</para>
+	
+	<para><literal>conary rq packagename </literal></para>
+	
+	<para>To install the package from the command line, type:  <literal>sudo conary update packagename</literal></para>
+	
+	
+	</sect1>
+
+	
+<!-- ============= Removing software ============================== -->
+
+	<sect1 id="removing-software">
+	<title>Removing software</title>	
+	
+	<para>The easiest way to remove an installed package is to use Package Kit.  Click on <menuchoice><guimenu>System</guimenu> <guimenu>Administration</guimenu> <guimenu>Add / Remove Software</guimenu></menuchoice>.  In the search box, type the name of the software package you wish to remove.  
+	</para>
+	
+		<figure id="Removing software">
+		  <title>Removing a package</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/remove-software.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Removing an installed package</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+	
+	<guilabel>Removing a package using the command line:</guilabel>
+	
+	<para>To remove a software package from your system, at the command line type:</para>
+
+	<para><literal>sudo conary erase packagename </literal></para>
+
+	<para>This will completely remove the package from your system.  Do not use the <literal>conary remove</literal> command, always use <literal>conary erase</literal>.  Using <literal>conary remove</literal> to remove a packaged file instructs Conary never to allow it to be installed again.</para>
+
+	</sect1>
+
+<!-- ============= Advanced Software Installation ============================== -->
+
+	<sect1 id="advanced-installation">
+	<title>Installing software from other rBuilder repositories</title>
+
+	<para>It is possible to install other software packages using Conary from other repositories on rBuilder Online.  rBuilder Online is an rPath website where users can find, develop, and share applicatons, appliances and associated Conary packages in a collaborative environment.  To find software packages, visit <ulink url="http://www.rpath.com/rbuilder/" type="http">rBuilder Online</ulink> and in the upper right hand corner you can search for projects, such as Foresight, or individual packages.</para>
+
+	
+	<para>If you are searching the <ulink url="http://www.rpath.com/rbuilder/project/foresight/" type="http">Foresight repository</ulink> on rBuilder Online, click on <guilabel>Browse Repository</guilabel> to view packages available for installation.  Packages, also known as troves, are available for Foresight 1.x and Foresight 2.x.  Packages for 2.x are constantly being added and tested.  When a package is first added to Foresight, it is added to the development label, fl:2-devel.  After initial testing, it is promoted to the Quality Assurance label, fl:2-qa for more widespread testing by the QA team.  After passing testing by the QA team, packages are then promoted to Foresight 2.1.2, fl:2, and available to all users.
+	</para>
+	
+	<para>If a package you are looking for is available only in QA or the development version, it is possible, though not always recommended, to install a package from the QA or development labels on your Foresight 2.1.2 system.  Conary will handle all dependencies needed to accomplish this, if they are all available.  Installing packages from other labels is not available in PackageKit, and must be completed in the command line.</para>.
+	
+	<para>To install a package from the QA branch from the command line, open a terminal, <menuchoice><guimenu>Applications</guimenu> <guimenu>Accessories></guimenu> <guimenu>Terminal</guimenu></menuchoice> and type:
+	</para>
+
+	<para><literal>sudo conary update packagename=@fl:2-qa</literal></para>
+
+	<para>By adding <literal>=@fl:2-qa</literal> you are telling Conary to use the QA branch.  To install a package from the development version, it is almost the same command:</para>
+	
+	<para><literal>sudo conary update packagename=@fl:2-devel</literal></para>
+	
+	<para>It is possible if you don't have the correct dependencies, or the package you are trying to install conflicts with other software on your system, that Conary will not let you proceed.  If you need additional information, see <xref linkend="gettinghelp"/> and ask your question in IRC, the forums or mailing lists.</para>
+	
+	</sect1>
+	
+<!-- ============= Compiling custom software ============================== -->
+
+	<sect1 id="compiling-custom-software">
+	<title>Compiling custom software and installing development tools</title>
+
+	<para>To compile software on Foresight, you will need to add development tools, such as gcc, rmake, and make. To install a full suite of development tools on the Foresight GNOME edition, you can use PackageKit or the command line.
+	</para>
+	
+	<para>To install using PackageKit, click on <menuchoice><guimenu>Applications</guimenu> <guimenu>Add / Remove Software</guimenu></menuchoice>. Search for <literal>group-gnome</literal> and hit <literal>Enter</literal>.
+	</para>
+	
+	<para>Click on the <literal>group-gnome-dist-devel</literal> package and click <guimenu>Install</guimenu></para>.
+	
+	<para>To install from a command line, open a terminal and type:
+	</para>
+
+	<para><literal>sudo conary update group-gnome-dist-devel</literal></para>
+
+	<para>Once this has downloaded and installed via Conary, you will be able to compile and install your custom software, or even create packages using the Conary tools.
+	</para>
+	
+	</sect1>
+	
+</chapter>

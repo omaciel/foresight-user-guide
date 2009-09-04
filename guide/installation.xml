@@ -1,0 +1,54 @@
+<chapter id="installation">
+	<title>Installing Foresight</title>
+
+	<para>This section provide a high level overview of  downloading, burning and installing the latest version of Foresight.
+	</para>
+
+
+<!-- ============= Installing Foresight Linux ============================ -->
+	 <sect1 id="download">
+		<title>Download and burn Foresight Linux</title>
+		<para>The current release of Foresight Linux is 2.1.2. To download the latest version of Foresight, visit the <ulink url="http://www.foresightlinux.org/gnome.html" type="http">downloads page</ulink> and download the CD image on 2 CDs, or the DVD image.</para>
+		
+		<para>Foresight 2.1.2 features a new tar based installer, which is only available on the DVD ISO.  Installing the DVD should take less than 10 minutes to install, including formatting your hard drive.  It is highly recommended to use the DVD ISO if you can.</para>
+	
+	</sect1>
+	
+<!-- ============= Burning Foresight Linux ============================ -->
+	<sect1 id="burning">
+		<title>Burning an image</title>
+	<para>Using your favorite CD Burning application, choose <guilabel>Burn Image</guilabel> and burn the image to a blank DVD-R or CD-R.</para>
+	<para>If you are using Windows, a number of free disc and image burning applications are available to burn your Foresight image:</para>
+	<itemizedlist mark="bullet">
+		<listitem>
+		<para>
+		<ulink url="http://www.glorylogic.com/index.html" type="http">Burnaware</ulink>
+		</para></listitem>
+		<listitem>
+		<para>
+		<ulink url="http://www.imgburn.com/" type="http">ImgBurn</ulink>
+		</para></listitem>
+		<listitem>
+		<para>
+		<ulink url="http://infrarecorder.sourceforge.net/" type="http">Infrarecorder</ulink>
+		</para></listitem>
+		</itemizedlist>
+	<para>If you are using a Linux distribution, applications such as Brasero, GNOMEBaker or k3b will burn disc images.
+	</para>
+	</sect1>
+
+<!-- ============= Installation ========================================= -->
+	<sect1 id="installation-1">
+	<title>Installing Foresight Linux</title>
+	<para>Once you have burned an image of Foresight Linux, put it in your CD
+or DVD drive, and reboot your computer.</para>
+
+<para>Hit enter when given the option to install Foresight Linux in graphical mode.  The installer will walk you through formatting your hard drive and creating partitions, setting a root password, creating your user account and password, and timezone.  All packages will be automatically installed.</para>
+
+<para>At this point the CD will be ejected from the drive, and you will be prompted to reboot.  Take the CD out of your drive, reboot your computer, and you will be running Foresight!</para>
+
+
+</sect1>
+
+
+</chapter>

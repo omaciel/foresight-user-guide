@@ -1,0 +1,135 @@
+<chapter id="gettinghelp">
+	<title>Getting Help</title>
+	
+		<para>This section will inform you of the different ways to get help including a wiki, email and live chat.
+		</para>
+	
+<!-- ============= Document Body ============================= -->
+
+<!-- ============= FAQ ============================== -->
+
+	<sect1 id="faq">
+	<title>Frequently Asked Questions</title>
+	
+	<para>Please check the FAQ page on the Foresight Wiki to see if your question or problem is a commonly asked question. <ulink url="http://wiki.foresightlinux.com/confluence/display/docs/FAQ" type="http">Click here to view the Frequently Asked Questions</ulink>.
+	</para>
+	
+	</sect1>
+	
+<!-- ============= Foresight Wiki ============================== -->
+
+	<sect1 id="wiki">
+	<title>Foresight Wiki</title>
+	
+	<para>The Foresight Wiki contains many howto's and information related to using and developing Foresight Linux. The wiki is contributed by users, and contains the latest information about Foresight. <ulink url="http://issues.foresightlinux.org/confluence/homepage.action" type="http">Click here to visit the Foresight Wiki</ulink> and a search box is available in the upper right hand corner.
+	</para>
+	
+	<para>To add content to the wiki, you will need to create an account.  Creating an account is done through JIRA, Foresight's issue tracker.  Creating an account in JIRA also creates an account in the Foresight Wiki.</para>
+	
+	     <orderedlist>
+        <listitem> 
+        <para><ulink url="http://issues.foresightlinux.org/secure/Dashboard.jspa" type="http">Visit the JIRA home page</ulink>.</para>   
+        </listitem>
+        <listitem>
+		<para>The first time you visit the JIRA homepage, on the right hand of the page is the Login / Sign Up section.  Click on "Signup for an account". </para>
+		</listitem>
+		<listitem>
+		<para>Choose a Username and Password, and enter your name and email address and click sign up.</para>
+		</listitem>
+		</orderedlist>
+		   <figure id="jira-create">
+        <title>Create a JIRA account</title>
+		        <mediaobject>
+          <imageobject>
+            <imagedata fileref="figures/jira-create.png" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+		
+		</sect1>
+		
+<!-- ============= Foresight Forums ============================== -->
+
+	<sect1 id="forums">
+	<title>Foresight Forums</title>
+	
+	<para>The Foresight Forums are a user community dedicated to Foresight, with users asking help, tips and tricks about Foresight, and other related Foresight news and information. The forums often link to content available on the Foresight Wiki <ulink url="http://forum.foresightlinux.org/index.php" type="http">Click here to visit the Foresight Forums</ulink>.
+	</para>
+	
+	<para>To add or reply to threads on the Forums, you will need to create an account.  This account is separate from your JIRA and Wiki account.  To create an account, click on <guilabel>register</guilabel> just above the Search box in the upper right.</para>
+	
+
+		   <figure id="forums">
+        <title>Foresight Forums</title>
+		        <mediaobject>
+          <imageobject>
+            <imagedata fileref="figures/forums.png" />
+          </imageobject>
+        </mediaobject>
+      </figure>
+		
+		</sect1>
+		
+<!-- ============= IRC ============================== -->
+
+	<sect1 id="irc">
+	<title>Internet Relay Chat (IRC)</title>
+	
+	<para>A number of Foresight users and developers chat online using Internet Relay Chat on the Freenode network in the #foresight channel. The #foresight channel is one of the most friendly IRC channels you'll come across, though you may have to be patient waiting for an answer at certain times.
+	</para>
+	
+	<para>To visit the #foresight channel, use Pidgin, available from <menuchoice><guimenu>Applications</guimenu> <guimenu>Internet</guimenu> <guimenu>Pidgin</guimenu></menuchoice>.
+	</para>
+	
+	<para>A number of different channels are available, depending on the help you are looking for:
+	</para>
+	<itemizedlist mark="bullet">
+	<listitem>
+    <para>#foresight: General discussion and help for Foresight Linux</para>
+    </listitem>
+    <listitem>
+        <para>#foresight-devel: Developer channel for packaging and Foresight development</para>
+    </listitem>
+    <listitem>
+        <para>#foresight-qa: Discussion of testing Foresight and new packages </para>
+    </listitem>
+    <listitem>
+        <para>#foresight-security: Security updates</para>
+    </listitem>
+    <listitem>
+        <para>#foresight-marketing: Building the Foresight community through advocacy, communication and conferences</para>
+    </listitem>
+    </itemizedlist>
+    
+	
+		</sect1>
+		
+<!-- ============= Mailing Lists ============================== -->
+
+	<sect1 id="lists">
+	<title>Mailing Lists</title>
+	
+	<para>Foresight has a number of different mailing lists.  You can browse the archives at the links below, or subscribe to be able to send emails to the mailing lists.
+	</para>	
+	
+	<itemizedlist mark="bullet">
+	<listitem>
+    <para><ulink url="http://lists.rpath.org/mailman/listinfo/foresight-distro" type="http">General List</ulink>: General discussion around Foresight Linux</para>
+    </listitem>
+    <listitem>
+    <para><ulink url="http://lists.rpath.org/mailman/listinfo/foresight-commits" type="http">Commits list</ulink>:(high traffic): All package commits are emailed to this list</para>
+    </listitem>
+    <listitem>
+    <para><ulink url="http://lists.rpath.org/mailman/listinfo/foresight-devel" type="http">Developers List</ulink>: Discuss topics related to Foresight development projects</para>
+    </listitem>
+    <listitem>
+    <para><ulink url="http://groups.google.com/group/foresight-mktg" type="http">Marketing</ulink>: Building the Foresight community through advocacy, communication and conferences.</para>
+	</listitem>
+	    <listitem>
+    <para><ulink url="http://groups.google.com/group/foresight-docs" type="http">Documentation</ulink>: Writing documenation to help users, including the Foresight Wiki and User Guide </para>
+	</listitem>
+
+</itemizedlist>
+	</sect1>
+	
+</chapter>

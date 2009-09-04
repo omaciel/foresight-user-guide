@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+  <!ENTITY APPLICATIONS SYSTEM "applications.xml">
+  <!ENTITY GETINVOLVED SYSTEM "getinvolved.xml">
+  <!ENTITY HELP SYSTEM "help.xml">
+  <!ENTITY INSTALLATION SYSTEM "installation.xml">
+  <!ENTITY POSTINSTALLCONFIG SYSTEM "post-install-config.xml">
+  <!ENTITY PREFACE SYSTEM "preface.xml">
+  <!ENTITY SOFTWARE SYSTEM "software.xml">
+  <!ENTITY date "February 2008">
+  <!ENTITY foresightversion "2.1.2">
+  <!ENTITY manrevision "2.0">
+  <!ENTITY appversion "2.0">
+  <!ENTITY manrevision "2.0">
+  <!ENTITY app "Getting Started with Foresight Linux Userguide">
+]>
+<!-- 
+      (Do not remove this comment block.)
+  Maintained by the Foresight Documentation Project
+  http://www.foresightlinux.org
+  Template version: 2.0 beta 
+  Template last modified Apr 11, 2002
+"/usr/local/share/docbookdtd//docbookx.dtd"  
+-->
+<book id="frontmatter"> 
+  <title>Getting Started with Foresight Linux User Guide V&manrevision;</title> 
+  <titleabbrev>Getting Started</titleabbrev> 
+  <bookinfo> 
+	 <copyright> 
+		<year>2008</year> 
+		<holder>Foresight Linux Project</holder> 
+	 </copyright> 
+	 <publisher role="maintainer">
+		<publishername>Foresight Linux Documentation Project</publishername> 
+	 </publisher>
+   <abstract role="description">
+     <para>A high level overview to getting started with Foresight Linux.</para>
+   </abstract>
+   &LEGAL;
+	 <authorgroup> 
+		<author> 
+		  <firstname>Paul</firstname> 
+		  <surname> Cutler</surname> 
+		</author> 
+	 </authorgroup> 
+	 <revhistory> 
+		<revision> 
+		  <revnumber>Foresight Linux User Guide V&manrevision;</revnumber> 
+		  <date>&date;</date> 
+		  <revdescription> 
+			 <para role="author"> Foresight Linux </para> 
+			 <para role="publisher"> Foresight Linux Documentation Project </para> 
+		  </revdescription> 
+		</revision>
+	 </revhistory> 
+	 <releaseinfo> This manual provides a high level overview of using Foresight.</releaseinfo> 
+	 <legalnotice> 
+		<title>Feedback</title> 
+		<para> To make a suggestion regarding this style guide, send an email to
+		  <email>feedback@foresightlinux.org</email>. </para> 
+	 </legalnotice> 
+  </bookinfo>
+ &PREFACE;
+&INSTALLATION;
+&POSTINSTALLCONFIG;
+&APPLICATIONS;
+&SOFTWARE;
+&HELP;
+&GETINVOLVED;
+
+</book> 

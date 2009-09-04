@@ -1,0 +1,88 @@
+<chapter id="getinvolved">
+		<title>Get Involved with Foresight Linux</title>
+		<para>Foresight Linux is a volunteer based distribution.  Packaging, documentation, security fixes and translation are done by users like you.
+		</para>
+		
+<!-- ============= Document Body ============================= -->
+<!-- ============= Bugs ============================== -->
+
+	<sect1 id="bugs">
+	<title>Report and triage bugs</title>
+	
+	<para>Foresight Linux uses <guilabel>JIRA</guilabel> for issue and bug tracking. <ulink url="http://issues.foresightlinux.org/secure/Dashboard.jspa" type="http">JIRA is available here</ulink>, and to report or triage bugs please create an account.
+	</para>
+	
+	<para>To report an issue, use the search box in the upper right hand corner and search for the package to make sure a bug report hasn't already been created. If a bug hasn't been created, click <guilabel>Create New Issue</guilabel> under the Foresight logo on the upper left. Fill in the summary, assign a priority, and include as much information as possible. You will receive an email once you create the bug, and when a user or developer comments or fixes the bug, you will also receive an email confirmation.
+	</para>
+	
+	</sect1>
+	
+<!-- ============= Bugs ============================== -->
+
+	<sect1 id="docs">
+	<title>Write documentation and contribute to the wiki</title>
+	
+	<para>All Foresight documentation is created and maintained on the wiki. Have you found a new way to do something or see an error in the current documentation? Add or edit the Foresight wiki so all users can take advantage of your knowledge. 
+	</para>
+
+	<para><ulink url="http://issues.foresightlinux.org/confluence/homepage.action" type="http">Visit the Foresight wiki here</ulink>, and create an account to add or edit wiki pages.
+	</para>	
+
+	</sect1>
+	
+<!-- ============= Help ============================== -->
+
+	<sect1 id="help">
+	<title>Help new users in IRC</title>
+	
+	<para>New users with questions are always stopping by in IRC to ask questions. One of the quickest and easiest ways to get involved with Foresight is to help answer these questions in IRC. Join us in #foresight on Freenode, and contribute to the live chat and discussion.
+	</para>	
+	
+	</sect1>	
+	
+<!-- ============= Security ============================== -->
+
+	<sect1 id="security">
+	<title>Join the Security Team</title>
+	
+	<para>A goal of Foresight Linux is to be up to date with the latest software and give our users a secure computing experience. Join the security team to help package the latest software, test it, and write security notices to keep Foresight secure. Join the #foresight-security channel on Freenode IRC to learn more.
+	</para>	
+	
+	</sect1>
+	
+<!-- ============= Developer ============================== -->
+
+	<sect1 id="developer">
+	<title>Becoming a developer</title>
+	
+	<para>Foresight Linux is always grateful to accept help. To learn more about packaging using Conary and rPath tools <ulink url="http://wiki.foresightlinux.com/confluence/display/DEV/Foresight+Linux+Development" type="http">visit the Developer Wiki</ulink>. The Developer Wiki contains howto's on getting started with Conary, including recipe examples, how to switch an installation to the development version, and guidelines for submitting packages.
+	</para>	
+	
+	<para>It is recommended that new developers submit patches to current bugs and packages before new packages. Developers new to packaging can create their own repository on <ulink url="http://www.rpath.com/rbuilder/" type="http">rBuilder</ulink> as well, and commit packages to their personal repository and the QA team will test them for compatibility.  Commit access is only given after a developer has shown a demonstrated and sustained level of involvement.
+	</para>		
+	
+	<para>For more information on packaging for Foresight 2.1.2, visit the <ulink url="https://wiki.foresightlinux.org/display/DEV/Foresight+Linux+2.x#ForesightLinux2.x-PackagingforForesight2.xDevelopment" type="http">Development space on the Foresight wiki</ulink>:</para>
+	
+	<itemizedlist mark="bullet">
+	<listitem>
+	<para>
+	<ulink url="https://wiki.foresightlinux.org/display/DEV/Foresight+Linux+2.0+Development+Overview" type="http">Foresight 2.1.2 Development Overview</ulink>
+	</para>
+	</listitem>
+	<listitem>
+	<para>
+	<ulink url="https://wiki.foresightlinux.org/display/DEV/HOWTO+setup+a+2.x+build+environment" type="http">How to setup a Foresight 2.1.2 build environment</ulink>
+	</para>
+	</listitem>
+	<listitem>
+	<para>
+	<ulink url="https://wiki.foresightlinux.org/display/DEV/HOWTO+Create+a+package+for+Foresight+2.x" type="http">How to create packages for Foresight 2.1.2</ulink>
+	</para>
+	</listitem>
+	</itemizedlist>
+	
+	</sect1>
+	
+</chapter>
+
+

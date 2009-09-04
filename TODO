@@ -1,0 +1,15 @@
+TODO
+
+* Re-write Preface section
+* Fix Help link in Preface
+
+
+Software.xml
+
+* Add packagekit screenshots (Post install config complete) - Need to update Adding & Removing Software
+* Fix line to view updates packagekit wants to install
+
+Applications.xml (May be moved to Userguide 2)
+
+* Add Liferea page
+* Add X-Chat page

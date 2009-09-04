@@ -1,0 +1,619 @@
+<chapter id="applications">
+		<title>Using Applications in Foresight Linux</title>
+		<para>This chapter highlights a number of applications you might use in your day to day use of Foresight Linux. 
+		</para>
+<!-- ============= Document Body ============================= -->
+<!-- ============= Banshee ============================== -->
+
+	<sect1 id="banshee">
+	<title>Banshee Music Player</title>
+	
+		<para><ulink url="http://www.banshee-project.org" type="http">Banshee</ulink> is a music manager for GNOME written in Mono.  Banshee organizes all of your music on your computer as well as your digital audio player.   Banshee supports ripping music from CDs, burning music to disc, listening to internet radio, Podcast support, and digital audio player support, including transcoding.
+		</para>
+		
+		<para>To start Banshee, choose the <menuchoice><guimenu>Applications</guimenu> <guimenu>Sound and Video</guimenu> <guimenu>Banshee Music Player</guimenu></menuchoice>.
+		</para>
+		
+				<figure id="banshee-screenshot">
+		  <title>Banshee Music Player</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/banshee2.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Banshee Music Player</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+
+
+		<para><guilabel>Importing Music</guilabel></para>
+
+		<para>The first time you run Banshee, you will be prompted to import your digital music collection.  You can import digital music files including OGG, FLAC, MP3,  or WAV.  Banshee will then sort your music based on artist, track name, track number or album.  Clicking on one of the columns will make Banshee sort in that order.  To import music at a later date, click "Music", then "Import" and choose the location on your hard drive to import your music.
+		</para>
+		
+		<para>To import music from an audio CD, insert the CD in your CD-ROM drive.  The left hand side of Banshee on the side menu will display a CD icon, and if you are connected to the internet, connect to Musicbrainz to look up the title and song names and display that as well.  Click on the CD icon on the left bar to display the songs on the CD.  Click on "Import CD" in the upper right hand corner and Banshee will import the songs in to your collection in the file format you've chosen in your Preferences.  To choose the file format (OGG, MP3, FLAC or WAV), click 
+		<menuchoice><guimenu>Edit</guimenu> <guimenuitem>Preferences</guimenuitem></menuchoice> and choose from the drop down menu towards the bottom.
+		</para>
+
+		<para><guilabel>Playing Music</guilabel></para>
+
+		<para>To start playing a song, double click on the song or hit the play button in the upper left corner.  Once the song if finished, Banshee will play the next song.  You can also rate the song one to five starts depending on how much you like the song, and sort by rating, or build a smart playlist based on the rating.  Smart Playlists can be a very powerful tool to build custom playlists.  To learn more about Smart Playlists, visit <ulink type="http" url="http://banshee-project.org/Guide">the Banshee User Guide</ulink>.
+		</para>
+
+		<para><guilabel>Podcasts</guilabel></para>
+
+		<para>Banshee supports subscribing and listening to Podcasts.  Choose <guilabel>Podcasts</guilabel> on the left hand side menu.  To subscribe to a Podcast, click on <menuchoice><guimenu>Menu</guimenu> <guimenu>Subscribe to Podcast</guimenu></menuchoice>.  Enter the URI of the Podcast you would like to subscribe to.  Banshee will then begin to download the latest Podcast, and show all available dwonloads for the URI in the bottom pane.  Click on the checkbox to download additional Podcasts. 
+		</para>
+	
+		<para><guilabel>Burning Music</guilabel></para>
+
+		<para>To burn music to CD, insert a blank CD-R into your CD-RW drive.  Banshee will display an icon on the left hand side menu.  From your music library, drag and drop the music files you would like to burn to CD.  Click on the blank CD and review the files you want to copy.  When ready to burn, click on the Write CD button in the upper right hand corner.  Banshee will automatically transcode your files such as FLAC, OGG or MP3 to WAV during the burning process to create an audio CD.  When complete, Banshee will eject your CD and you will be able to listen to it in a CD player.
+		</para>
+
+		<para><guilabel>Internet Radio</guilabel></para>
+
+		<para>Banshee can also play internet radio streams.  Banshee comes with over 20 internet radio stations pre-programmed.  To being listening, click on <guilabel>Radio</guilabel> on the left hand side menu, and then double click a station to begin listening.  To add a station, click on the <guilabel>Add Station</guilabel> in the upper right hand corner.  Assign the station to a Station Group, Enter the name of the station in Station Title, copy the URI in to the Stream URL, enter a description, which is optional and click save to add your station.  Double click the station to start listening.
+		</para>
+
+		<para><guilabel>Digital Audio Players</guilabel></para>
+
+		<para>Banshee has support to manage your digital audio player, such as an iPod or Creative Nomad.  Plug your DAP in via USB, and it will appear in the left hand side menu.  You can drag and drop songs from your music library on to your DAP by highlighting the songs in your library and dragging them over the icon in the side menu. To learn more about digital audio players, visit the <ulink url="http://banshee-project.org/Guide/DAPs" type="http">DAP page on the Banshee User Guide</ulink>.
+		</para>
+
+
+	
+		</sect1>
+		
+<!-- ============= Brasero ============================== -->		
+	
+	<sect1 id="brasero">
+	<title>Brasero Disc Burning Application</title>
+
+		<para>Brasero is an application for writing to recordable CDs or DVDs.  Burn images, music, data or make an exact copy of a disc.
+		</para>
+		
+		
+				<figure id="brasero-screenshot">
+		  <title>Brasero CD / DVD Burning</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/brasero.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Brasero CD / DVD Burning</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+ 
+		<para>To start Brasero, choose the <menuchoice><guimenu>Applications</guimenu> <guimenu>Sound and Video</guimenu> <guimenu>Brasero Disc Burning Application</guimenu></menuchoice>.
+		</para>
+ 
+	<para>From the main Brasero menu that starts, choose which project you would like to start:
+	</para>
+
+	<para><guilabel>Burn an Audio Project (traditional music CD)</guilabel>
+	</para>
+
+	<para>To burn an audio CD, insert a blank disc in to your CDRW drive, and start Brasero from <menuchoice><guimenu>Appplications, Sound and Video</guimenu> <guimenu> Brasero Disc Burning Application</guimenu></menuchoice>.  Brasero will launch with and prompt you to start a new project (see attached screenshot), and click on Audio project.  In the bottom left hand corner of Brasero, click on the Audio CD icon and choose the size of the CD you inserted, such as 74 minutes or 80 minutes.
+	</para>
+
+	<para>On the right side of Brasero, is the file browser.  Browse your home directory and find the location of the audio files such as OGG, FLAC or MP3 you wish to create an audio CD from.  To add a file, double click the audio file, or drag and drop from the file browser on the right to the Audio project on the left hand side of Brasero. Brasero will automatically calculate how much time each song is in the bottom bar along the Audio Project.  If Brasero displays "Oversized", you have added more songs than will actually fit on the CD.  To remove a song, highlight the song and right lick your mouse and click remove, or use the delete key on your keyboard.
+	</para>
+
+	<para>Once you have added the songs in the order you have chosen, click the Burn button to burn your project, and Brasero will automatically turn your audio files to an Audio CD to be played in your CD player. 
+	</para>
+
+	<para><guilabel>Burn a Data Project (Backup your data to a CD or DVD)</guilabel>
+	</para>
+
+	<para>To backup your data to CD or DVD, start Brasero from <menuchoice><guimenu>Applications</guimenu> <guimenu>Sound and Video</guimenu> <guimenu>Brasero Disc Burning Application</guimenu></menuchoice>.  Brasero will launch and prompt you to start a new project (see attached screenshot), and click on Data project.  In the bottom left hand corner of Brasero, click on the CD icon and choose the size of the CD or DVD you inserted, such as a 700 MB CD or 4.3 GB DVD.
+	</para>
+	
+	<para>To add data to your disc, drag and drop files from the Nautilus File Browser in to Brasero, or from the File Browser on the right hand side of Brasero to the Data Project on the left hand side.  When you have added all the files you wish to add to CD or DVD, click the Burn button, and Brasero will backup your data.
+	</para>
+
+	<para><guilabel>Burn an exact 1:1 copy</guilabel>
+	</para>
+
+	<para>To make an exact copy of a CD or DVD, insert the disc you wish to copy and start Brasero from <menuchoice><guimenu>Applications</guimenu> <guimenu>Sound and Video</guimenu> <guimenu>Brasero Disc Burning Application</guimenu></menuchoice>.  If you have a second drive, insert a blank disc in to your CD/DVD-RW drive. Brasero will launch and prompt you to start a new project (see attach screenshot) and click on Disc Copy (1:1 copy).  Brasero will prompt you to choose your source drive (with the disc to be copied in it) and which drive you will burn to.  If you only have one drive, such as a laptop, Brasero will copy to the hard drive, and then burn to disc.
+	</para>
+
+	<para><guilabel>Burn an image (Such as the latest ISO image of Foresight Linux)</guilabel>
+	</para>
+
+	<para>To burn an image, such as an ISO,  start Brasero from <menuchoice><guimenu>Applications</guimenu> <guimenu>Sound and Video</guimenu> <guimenu>Brasero Disc Burning Application</guimenu></menuchoice>.  Choose the Burn Image button in the bottom left hand corner.  Brasero will prompt you to pick an image to burn.  Click on the Path button, and choose the image, and click OK.  Then click Burn, and Brasero will convert and burn the image to CD or DVD.
+	</para>
+	
+	</sect1>
+	
+<!-- ============= Beagle ============================== -->
+
+	<sect1 id="beagle">
+	<title>Desktop Search using Beagle</title>
+
+	<para>Searching your computer for your files, photos, music and more has never been easier.  Desktop Search is powered by Beagle, which indexes your home directory and makes it easy and fast to find what you're looking for.
+	</para>
+	
+					<figure id="beagle-screenshot">
+		  <title>Desktop Search</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/beagle.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Brasero CD / DVD Burning</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+
+	
+	<para><guilabel>Using Beagle</guilabel></para> 
+
+	<para>Beagle is automatically started when you run Foresight Linux, and as you add content to your home directory, will automatically index it for you.  Beagle will index your music, photos, files, instant messenging conversations, emails in Evolution, videos, documents, and more.
+	</para>
+
+	<para>To search your computer, click on the magnifying glass in your upper right hand corner of your panel, or hit F12.  A search box will appear (shown below in the screenshot), type in your search parameters, and Beagle will display the results.  Double clicking on a search result will start the application associated with the file, such as double clicking on a MP3 will start Banshee for playback.
+	</para>
+
+	<para><guilabel>Deskbar and Beagle</guilabel></para> 
+
+	<para>Another tool to search your desktop is using Deskbar.  Deskbar is an applet that sits on your GNOME panel, and allows you to search via a number of different tools, including Beagle, Web searches, and a number of other tools.  To add Deskbar to your panel, right click on your panel and click <menuchoice><guimenu>Add to Panel</guimenu> <guimenu>Deskbar</guimenu> <guimenu>Add</guimenu></menuchoice>.  Beagle is not a default preference in Deskbar, so that will need to be enabled.  Right click on the icon, and choose <guilabel>Preferences</guilabel>.  Click on the boxes for Beagle and <guilabel>Beagle Live</guilabel> to enable searching via Beagle in the Deskbar.  To start a search, click on the Deskar icon, and type your search query in the dialog box that appears, and choose how you want to search, you will see Beagle as an option under Actions.
+	</para>
+	
+	</sect1>	
+	
+<!-- ============= Evolution ============================== -->
+
+	<sect1 id="evolution">
+	
+	<title>Evolution Email Client</title>
+		
+
+			<term><para><ulink url="http://www.gnome.org/projects/evolution/" type="http">Evolution</ulink> is a full featured email client, supporting POP and IMAP, addressbook and calendaring application for the GNOME desktop.  Evolution also features:
+			</para></term>
+			
+			<itemizedlist mark="bullet">			
+			<listitem><para>Spam filtering</para></listitem>
+			<listitem><para>GPG security and key signing</para></listitem>
+		  	<listitem><para>Search Folders, allowing you to filter email based on your criteria</para></listitem>
+		  	<listitem><para>Web calendar integration</para></listitem>		  	
+		  	<listitem><para>Manage multiple email accounts</para></listitem>
+		  	</itemizedlist>
+						
+		
+			<figure id="evolution-screenshot">
+		  <title>Evolution Email Client</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/evolution.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Evolution</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+	
+			<para>Evolution is one of the most feature rich applications for the GNOME desktop.  The below topics are just an overview of what Evolution can do.  To learn more, visit the Evolution User Guide, available in the GNOME help.  Click System in your panel, then help, and enter "Evolution" in the search box.  Or visit the Evolution homepage for more information.
+			</para>
+			
+			<para><guilabel>Adding an account</guilabel></para>
+
+			<para>The first time you start Evolution, you will be prompted to enter your email account details.   Enter your name and email address, and click next.  Choose your "Server Type", most users will use POP, and your server information and username.   (This information should be available from your ISP).  Click next, and enable any of the receiving options such as automatically checking email every ten minutes.  Click next and configure your sent mail settings.  Choose your "Server Type, most users will use SMTP, and enter your server name.  Click next, and enter the name you wish to use for the account in Evolution, usally your email address, and you're finished.  To add additional email accounts, click Edit in the menu, Preferences, Mail Accounts, and Add.
+			</para>
+			
+			<para>To receive new email, click the Send / Receive button in the left hand corner.
+			</para>
+			
+			<para><guilabel>Evolution Contacts</guilabel></para>
+
+			<para>In Evolution, Contacts are individuals you add to your addressbook.  A single contact is called a Card.  To add a new Card to Evolution, click on Contacts on the left hand menu, and then New and Contact.  Enter the contact information, including name, email address, address or instant messenger contact information.
+			</para>
+			
+			<para><guilabel>Calendars</guilabel></para>
+	
+			<para>Evolution supports the ability to manage multiple calendars, both local, CalDAV and web based calendars.   To create a new calendar, click File, then New, then Calendar.  If the calendar is one to be saved only on your computer, enter the name and color.  If it is an internet based calendar, enter the name, color, URL and how often the calendar should be refreshed for changes and updates.
+			</para>
+
+
+	</sect1>
+	
+<!-- ============= Epiphany ============================== -->
+
+	<sect1 id="firefox">
+	<title>Firefox Web Browser</title>
+
+	<para><guilabel>Firefox Web Browser</guilabel></para>
+
+	<para><ulink url="http://www.mozilla.com/en-US/firefox/" type="http">Firefox</ulink> is the default web browser Foresight.  Powered by the Gecko engine and developed by the Mozilla Foundation, Firefox features tabbed browsing, a customizable interface, and extensions and plugins.  Firefox is the world's most popular open source browser, available for Linux, Windows and Mac OS X. 
+	</para>
+					<figure id="firefox-screenshot">
+		  <title>Firefox Web Browser</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/firefox.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Firefox Web Browser</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+
+	<para>To start Firefox, choose <menuchoice><guimenu>Applications</guimenu> <guimenu>Internet</guimenu> <guimenu>Firefox Web Browser</guimenu></menuchoice>.  Firefox will start with Firefox's customized Google search page as the default page. 
+	</para>
+	
+	<para><guilabel>Tabbed Browsing</guilabel></para>
+
+	<para>To open a new tab, hit ctrl-t or click <menuchoice><guimenu>File</guimenu> <guimenu>New Tab</guimenu></menuchoice>.  You can drag and drop tabs in the tab bar to change the order of the tabs currently open.  To close a tab click the <guilabel>x</guilabel> on the right hand sight of the tab.  Choose <guilabel>Tabs</guilabel> in the menu to quickly change which tab is the focus at any time.
+	</para>
+	
+	<para><guilabel>Add Ons</guilabel></para>
+
+	<para>Add ons add additional functionality created by the community to add features.  To view add ons available for download, click <menuchoice><guimenu>Bookmarks</guimenu> <guimenu>Mozilla Firefox</guimenu> <guimenu>Customize Firefox</guimenu></menuchoice>.  This will take you to the Firefox home page where you can browse Add Ons available for download.  A few examples of extensions you can download include Greasemonkey which allows you to customize how webpages display, Ad blocker to hide online web ads, del.icio.us bookmarks manager to save and manage your online bookmarks, and more.  To learn more about the Add Ons available in Firefox, visit the <ulink url="https://addons.mozilla.org/en-US/firefox/" type="http">add ons page</ulink> at the Firefox web site.
+	</para>
+	
+	<para><guilabel>Epiphany</guilabel></para>
+		
+	<para>For users who wish to use Epiphany, the GNOME Web Browser, Epiphany is available for installation in the Foresight repositories as well.  Epiphany offers a more integrated browsing experience in GNOME, and also features Smart Bookmarks.  For more information about Epiphany, visit the <ulink url="http://www.gnome.org/projects/epiphany/" type="http">Epiphany home page</ulink>.</para>
+	
+	</sect1>	
+
+<!-- ============= F-spot ============================== -->
+
+	<sect1 id="f-spot">
+	<title>F-Spot Photo Manager</title>
+
+	<para><ulink url="http://www.f-spot.org" type="http">F-Spot</ulink> helps manage your photos, including sharing, touch-up, finding and organizing your images.  F-Spot supports the ability to tag your photos making it easy to find and organize them, share them with popular photo sharing websites, including Picasa, Flickr, Gallery and more, and basic editing including sharpening your photos or rotating their size.
+	</para>
+	
+				<figure id="fspot">
+		  <title>F-Spot Photo Manager</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/fspot.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>F-Spot</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+
+	<para><guilabel>Importing</guilabel></para>
+
+	<para>To start F-Spot, click the <menuchoice><guimenu>Applications</guimenu> <guimenu>Graphics</guimenu> <guimenu>F-Spot Photo Manager</guimenu></menuchoice>.  The first time you run F-Spot, you will be asked to import your photos in to F-Spot.  Click the drop down box, and select the folder in which your photos have been saved in.  You can choose to add an entire folder and directory, or click on the photo individually, or use shift and click to choose multiple photos at the same time.
+	</para>
+	
+	<para><guilabel>Tagging</guilabel></para>
+
+	<para>You can apply tags, also called labels, to your photos, to quickly sort and search through.  F-Spot comes with a number of default tags, including Events, People, Favorites and Places.  To create a new label, right click in the label menu on the left, and click create new tag.  Enter the name of your tag, and define a parent, such as Places.  For example, if you have viewed the screenshot above, I have tagged the photo's "Washington D.C." (where the photos were taken) and applied Places as the parent tag. 
+	</para>
+	
+	<para>To add the tag to a photo, right click on the photo (or photos) you want to tag,  highlight <guilabel>Attach Tag</guilabel>, and click on the tag you would like to apply.
+	</para>
+	
+	<para><guilabel>Editing</guilabel></para>
+
+	<para>F-Spot gives you the ability to perform minor edits to your photos by clicking the "Edit Photo" button near the top of the program under the menu..  You can adjust the color of your photos, crop the picture, remove red-eye, straighten your photo, or add a description.  To learn more about editing your photos, visit the F-Spot User Guide. 
+	</para>
+	
+	<para><guilabel>Browsing</guilabel></para>
+
+	<para>Click the Browse button to view the photos thumbnails.  Alternatively, you can zoom in and out by clicking the View menu, and choose Zoom In or Out.  As you add photos to your collection, you can use the slider widget above the photos to view on a timeline.
+	</para>
+	
+	<para>You can also view by tag, clicking on the tag on the left hand menu will display all photos labeled with that particular tag.  
+	</para>
+	
+	<para>To learn more about all the different ways to view your photos, including full screen and slideshow, visit the F-Spot User Guide. 
+	</para>
+	
+	<para><guilabel>Exporting</guilabel></para>
+
+	<para>F-spot gives you the ablity to export your photos to a number of popular photo sharing services, including Flickr, Gallery or Picasa.  You can also export to a CD or folder to backup your photos.  Choose the service you would like to export to, by clicking the File menu, Export and click on the service.  F-spot will need you to authorize your account the first time by clicking the Authorize button, which will open a web page for you to log in to.  Click on the files you would like to export, and click on the Export button.  To learn more, visit the F-Spot User Guide.	
+	</para>
+	
+	</sect1>
+
+<!-- ============= Glipper ============================== -->	
+	
+	<sect1 id="glipper">
+	<title>Glipper</title>
+	
+	<para><ulink url="http://glipper.sourceforge.net/" type="http">Glipper</ulink> is a clipboard manager for GNOME. Glipper helps manage cutting and pasting text between applications. Glipper, the clipboard icon in the upper right hand corner of your GNOME panel, keeps track of the last twenty items that have been cut or copied. 
+	</para>
+	
+	<para>Glipper is automatically started after logging in to Foresight Linux.  To use Glipper, cut or copy your text by highlighting it, right clicking on and choo se copy (or use control-C).  To paste the last thing that was copied, right click your mouse and hit paste (or use control-V).  To choose to paste something other than than the last item copied, click on the Glipper icon, and click on the item to be pasted (screenshot below).  The most recent item copied to Glipper is on the top, with recent history going from top to bottom.  Once chosen, right click on your mouse and hit paste (or control v).
+	</para>
+	
+	<para>Glipper makes it easy to store items and quickly paste them from one application to another. 
+	</para>
+	
+					<figure id="glipper screenshot">
+		  <title>Glipper</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/glipper-menu.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Glipper</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+	
+	</sect1>
+	
+<!-- ============= GNOMEDO ============================== -->
+
+	<sect1 id="gnome-do">
+	<title>GNOME Do</title>
+	
+	<para><ulink url="http://do.davebsd.com//" type="http">GNOME Do</ulink> allows you to quickly search for many items present in your GNOME desktop environment (applications, Evolution contacts, Firefox bookmarks, files, artists and albums in Rhythmbox, Pidgin buddies, etc.) and perform commonly used actions on those items (Run, Open, Email, Chat, Play, etc.).</para>
+
+	<para>GNOME Do is installed by default in Foresight, and active upon logging in.  To start GNOME Do, use the Super key + the space bar.  (The Super key is also called the Windows key).  When you hit super-space to bring up GNOME Do, you will see:</para>	
+
+			<figure id="gnomedo-screenshot">
+		  <title>GNOME Do</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/do-start.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>GNOME Do</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+		
+		<para>GNOME Do is a very powerful program that allows you to many things with just a couple of key presses.  You can start applications, search your desktop, look up words in the dictionary and more.  GNOME Do also features a robust plugin architecture, and you can download plugins to add functionality, such as connecting via SSH to servers, using Twitter, or having Banshee play songs.  A few examples of how to use GNOME Do are:</para>
+		
+		<itemizedlist mark="bullet">
+		<listitem>
+		<para>Start an application, such as Banshee (music player):  Bring up GNOME Do by hitting super-space.  Start to type "Banshee".  It will autocomplete for you.  As soon as the Banshee icon appears, hit enter, and Banshee will start.</para>
+		
+					<figure id="gnomedo-banshee">
+		  <title>GNOME Do starting Banshee</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/do-banshee.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>GNOME Do</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+		</listitem>
+		
+				<listitem>
+		<para>You can quickly navigate to webpages by typing the URL.  Bring up GNOME Do by hitting super-space, enter a URL, such as www.google.com, and as it auto-completes and shows "Open URL" on the right, hit enter and it will open the URL you typed in your browser.</para>
+		
+					<figure id="gnomedo-banshee">
+		  <title>GNOME Do opening a URL</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/do-url.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>GNOME Do opening a URL</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+		</listitem>
+		
+						<listitem>
+		<para>You can quickly open a directory using GNOME Do.  Bring up GNOME Do by hitting super-space, and enter the directory name, such as /usr/lib/ and hit enter when GNOME Do shows open directory, as seen in the below screenshot:</para>
+		
+					<figure id="gnomedo-direcotry">
+		  <title>GNOME Do opening a directory</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/do-directory.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>GNOME Do opening a directory</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+		</listitem>
+		
+		</itemizedlist>
+		
+		
+		</sect1>
+
+<!-- ============= Totem ============================== -->
+
+	<sect1 id="totem">
+	<title>Totem Movie Player</title>
+	
+	<para><ulink url="http://www.gnome.org/projects/totem/" type="http">Totem</ulink> is the official movie player of the GNOME desktop.  Totem supports video and audio playback including DVD, AVI, Ogg Theora, MP3, Ogg Voribs and other codecs supported by the Gstreamer framework.
+	</para>
+	
+	<para>To start Totem, click <menuchoice><guimenu>Applications</guimenu> <guimenu>Sound and Video</guimenu> <guimenu>Movie Player</guimenu></menuchoice>.  To choose video or audio files to play, click <menuchoice><guimenu>Movie</guimenu> <guimenu>Open</guimenu></menuchoice>, and choose your files.  Alternatively, you can drag and drop on to Totem from Nautilus.  You can also enable the Sidebar, by click on the Sidebar button in the lower right hand corner.  You can drag and drop files on to the sidebar to add to the playlist.  Clicking the <guilabel>+</guilabel> or <guilabel>-</guilabel>guilabel> buttons in the sidebar will allow you to add and remove files as well.  Use the arrow buttons to choose which order to play your files.  To save an audio playlist once you have the order of the files set, click the Save icon which looks like a floppy disk, name your playlist and click save.
+	</para>
+
+			<figure id="totem-screenshot">
+		  <title>Movie Player</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/totem.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Totem Movie Player</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+ 
+	<para><guilabel>DVD and Video Playback </guilabel></para>
+
+	<para>Foresight Linux ships with DVD support enabled.  Inserting a DVD in your computer's DVD drive will start Totem automically.  To play a video file, click Movie in the upper left hand corner of the menu, click Open and choose the video to play from your computer.
+	</para>
+	
+	<para>Totem supports DVD menus, and by using your mouse, you can click on the menu to choose to play the DVD or access other features. To move forward or backwards in chapters, click the seek buttons in the lower left hand corner of Totem.  To pause or play, hit the pause button located in between the seek buttons in the lower left hand corner.
+	</para>
+	
+	<para><guilabel>Audio Playback</guilabel></para>
+
+	<para>Totem can also be used to listen to MP3, Ogg Vorbis and other audio files.  Similar to Video Playback above, add files to Totem to play.  Totem uses a visualization plugin to display visual effects while playing audio.
+	</para>
+	
+	<para>To learn more about Totem, visit <ulink url="http://www.gnome.org/projects/totem/" type="http">Totem's homepage</ulink>. 
+	</para>
+	
+	</sect1>
+
+<!-- ============= OpenOffice.Org ============================== -->
+
+	<sect1 id="ooo">
+	<title>OpenOffice.Org</title>
+	
+	
+	<para>OpenOffice.org is an full featured office suite, compatible with other office suites on the market.  OpenOffice.org features the following applications as part of it's suite:
+	</para>
+	
+
+
+	  <itemizedlist mark="bullet">
+		<listitem>
+		  <para>
+		   <guilabel>Base</guilabel>: Base is a tool to manage databases, including creating and editing tables, viewing tables including adding, editing and deleting records, and a Report Wizard to create impressive reports from your data.  Base includes a a full version of the HSQL database engine, and also supports other popular databases such as MySQL, Access and others through industry standard ODBC and JDBC drivers.  Learn more about <ulink url="http://www.openoffice.org/product/base.html" type="http">Base at the OpenOffice.org website</ulink>.
+			</para></listitem>
+			<listitem>
+			<para>
+			 <guilabel>Calc</guilabel>: Calc is an advanced spreadsheet application with features for everyone from beginners to advanced users.  Use Calc to compute and perform complex calculations and formulas, create charts and graphs from data, and many more advanced spreadsheet features.   Learn more about <ulink url="http://www.openoffice.org/product/calc.html" type="http">Calc at the OpenOffice.org website</ulink>.
+			</para></listitem>
+			<listitem>
+			<para>
+    		<guilabel>Draw</guilabel>: Draw is a tool to create graphics from diagrams to process flows to org charts.  Draw features the ability to manipulate objects in 2D or 3D, easily group and ungroup objects, and smart connectors to connect diagrams.  To see a ful list of features, <ulink url="http://www.openoffice.org/product/draw.html" type="http">click here</ulink>.
+			</para></listitem>
+			<listitem>
+			<para>
+    		<guilabel>Impress</guilabel>:  Create multimedia presentations using Impress.  Add 2D and 3D clip art, special effects, and animations to capture your audience's attention.  To learn more about Impress and to see a demonstration, <ulink url="http://www.openoffice.org/product/impress.html" type="http">click here</ulink>.
+			</para></listitem>
+			<listitem>
+			<para>
+			<guilabel>Math</guilabel>: Math is a component within OpenOffice.org for computing scientific calculations.  Learn more about <ulink url="http://www.openoffice.org/product/math.html" type="http">Math here</ulink>.
+			</para></listitem>
+			<listitem>
+			<para>
+			<guilabel>Writer</guilabel>:  Writer is a full featured word processor that makes it easy to write everything from a brief memo to a full novel.  Save your files in OpenDocument format, or export to PDF, HTML or Microsoft Word documents as well.
+			</para></listitem>
+
+			</itemizedlist>	
+
+	</sect1>
+
+
+<!-- ============= Pidgin ============================== -->
+
+	<sect1 id="pidgin">
+	<title>Pidgin Instant Messenger</title>
+
+	<para><ulink url="http:/www.pidgin.im" type="http">Pidgin</ulink> is a powerful instant messenger client that supports many popular protocols and features.  Just a few of the different instant messenging protocols Pidgin supports include Jabber, Gtalk, AIM / ICQ, MSN Messenger, Yahoo! as well as Internet Relay Chat (IRC).   
+	</para>
+	
+			<figure id="Pidgin screenshot">
+		  <title>Pidgin Instant Messenger</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/pidgin-1.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Pidgin</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+		
+		<para>To start Pidgin, click <menuchoice><guimenu>Applications</guimenu> <guimenu>Internet</guimenu> <guimenu>Pidgin Instant Messenger</guimenu></menuchoice>.
+		</para>	
+	
+	<para><guilabel>Adding protocols</guilabel></para>
+
+	<para>The first time you start Pidgin you will be prompted to add an account.   Choose the Protocol of the service you use, such as Yahoo!, Jabber, MSN or AIM.  Enter your screen name and password, and if you want Pidgin to remember your password each time you log in, click the Remember password box.  Pidgin allows you to use different protocols at the same time, to add another service, just click the add button.
+	</para>
+	
+	<para><guilabel>Instant Messenging</guilabel></para>
+
+	<para>If you are using a Protocol you have used previously, upon logging in, Pidgin will show you any buddies and friends that you've added in the past.  To add a new buddy, hit ctrl-b or choose Buddies from the menu, and then  Add Buddy.  Enter their screen name and they will be added to your Buddy list.
+	</para>
+	
+	<para>To begin a conversation with one of your buddies, double click the screen name of your buddy.  To learn more about the many features of chatting via Pidgin, visit the <ulink url="http://developer.pidgin.im/wiki/FAQ" type="http">Pidgin FAQ</ulink>. 
+	</para>
+	
+	<para><guilabel>IRC</guilabel></para>
+
+	<para>Pidgin also functions as a full featured IRC client.  To chat in IRC, add an account, using IRC as the protocol and set your screen name.  To start IRC, choose Accounts from the menu, Enable Accounts and the IRC network you specified, such as #Freenode, the network Foresight uses.  You will connect to the IRC network, and type /join #channelname to join a specific channel to chat with other users.
+	</para>
+	
+	<para>Pidgin is the default application for IRC in Foresight.  Xchat-GNOME is also availabe in the repositories for users who want a dedicated IRC client.  To install Xchat-GNOME, search for xchat in PackageKit, or from the comamand line type <literal>sudo conary update xchat-gnome</literal>.</para>
+	
+	<para><guilabel>Plugins</guilabel></para>
+
+	<para>Pidgin features a number of additional plugins to enable additional functionality, such as encryption, customizing your GUI for when buddies log in or out, and an IRC plugin for additional IRC functionality.  For download links and more information, visit the Pidgin Plugins page.
+	</para>
+	
+	</sect1>
+
+
+
+<!-- ============= Tomboy ============================== -->	
+
+	<sect1 id="tomboy">
+	<title>Tomboy Notes</title>
+	
+	<para><ulink url="http://www.gnome.org/projects/tomboy/" type="http">Tomboy</ulink> is a simple, but powerful note taking application for the GNOME desktop. Tomboy makes it easy to create lists, make notes, and link it all together.
+	</para>
+	
+	<para>To start using <guilabel>Tomboy</guilabel>, click on the yellow notepad and pencil icon in the upper right hand corner of your panel, and click Create New Note.   The first line, in larger font, is the name of your new note.  Edit this line to name your note, and then all text you enter on the lines below that will be your note.
+	</para>
+	
+				<figure id="Tomboy screenshot">
+		  <title>Tomboy Notes</title>
+		  <screenshot>
+			 <mediaobject>
+				<imageobject>
+				  <imagedata fileref="figures/tomboy.png" format="PNG"/>
+					 </imageobject>
+				<textobject> <phrase>Tomboy</phrase>
+				</textobject>
+			</mediaobject>
+		  </screenshot>
+		</figure>
+
+	<para><guilabel>Formatting Notes</guilabel></para>
+
+	<para><guilabel>Tomboy</guilabel> supports bullet notes and text formatting.   To create a bullet note, either highlight the text you want to be in a bullet list, and click the Text button in the menu and click on the Bullet checkbox towards the bottom of the menu.  All text highlighted will now be listed in bullets, or you will start a new bullet list.
+	</para>
+	
+	<para>To change the font, including size, italics, bolding and other options, highlight your text and click on the Text button in the middle of the menu, and choose the option you wish to apply to format your text 
+	</para>
+	
+	<para><guilabel>Linking Notes</guilabel></para>
+
+	<para>To link your current note to a new note, highlight the text you wish to link in your current note, and hit the Link button in your menu.  This will create a new note with the name of the text you had highlighted, and automatically link to your first note. 
+	</para>
+
+	<para><guilabel>Plugins</guilabel></para>
+
+	<para><guilabel>Tomboy</guilabel> also has a plugin architecture, to enable additional functionality.  Some of the default plugins <guilabel>Tomboy</guilabel> features in a Foresight Linux installation include export to HTML, Note of the Day, and Bugzilla and Evolution integration.  More plugins are available for download, see the Tomboy page on the GNOME wiki for more information.
+	</para>
+	
+	<para><guilabel>Searching your Notes</guilabel></para>
+
+	<para><guilabel>Tomboy</guilabel> also features the ability to search among all your notes.  Click the search box in the upper left hand corner of your menu and enter the text to search for.  <guilabel>Tomboy</guilabel> will display the results of all notes that meet the criteria of your search.
+	</para>
+	
+	</sect1>
+	
+</chapter>
