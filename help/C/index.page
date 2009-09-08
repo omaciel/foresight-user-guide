@@ -1,0 +1,49 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="index">
+
+  <info>
+    <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="incomplete"/>
+    <credit type="author">
+      <name>Og Maciel</name>
+      <email>ogmaciel@gnome.org</email>
+    </credit>
+    <copyright>
+      <year>2009</year>
+      <name>Foresight User Guide</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+  </info>
+
+  <title>Foresight User Guide</title>
+
+  <section id="preface" style="2column">
+    <title>Preface</title>
+  </section>
+
+  <section id="installing" style="2column">
+    <title>Installing Foresight</title>
+  </section>
+  
+  <section id="post-install" style="2column">
+    <title>Post Installation Configuration</title>
+  </section>
+
+  <section id="using-applications" style="2column">
+    <title>Using Applications</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>Adding and Removing Software</title>
+  </section>
+
+  <section id="get-help">
+    <title>Getting Help</title>
+  </section>
+
+  <section id="get-involved">
+    <title>Getting Involved</title>
+  </section>
+
+</page>
