@@ -1,0 +1,43 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="help-forum">
+
+    <info>
+        <link type="guide" xref="index#get-help"/>
+        <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="draft"/>
+        <desc>Foresight Forum.</desc>
+        <credit type="author">
+            <name>Og Maciel</name>
+            <email>ogmaciel@gnome.org</email>
+        </credit>
+        <copyright>
+            <year>2009</year>
+            <name>Foresight User Guide</name>
+        </copyright>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>Foresight Forums</title>
+
+    <p>
+        The Foresight Forums are a user community dedicated to Foresight, with users asking 
+        help, tips and tricks about Foresight, and other related Foresight news and information. 
+        The forums often link to content available on the Foresight Wiki 
+        <link href="http://forum.foresightlinux.org/index.php">Click here to visit the Foresight 
+        Forums</link>.
+    </p>
+
+    <p>
+        To add or reply to threads on the Forums, you will need to create an account. This account 
+        is separate from your JIRA and Wiki account. To create an account, click on <gui>register</gui> 
+        just above the Search box in the upper right.
+    </p>
+
+    <figure>
+        <title>Foresight Forums</title>
+        <desc>Use the Foresight Forums to get more help.</desc>
+        <media type="image" src="figures/forums.png" mime="image/png" style="right" />
+    </figure>
+
+</page>

@@ -38,11 +38,11 @@
     <title>Adding and Removing Software</title>
   </section>
 
-  <section id="get-help">
+  <section id="get-help" style="2column">
     <title>Getting Help</title>
   </section>
 
-  <section id="get-involved">
+  <section id="get-involved" style="2column">
     <title>Getting Involved</title>
   </section>
 

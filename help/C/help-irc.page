@@ -1,0 +1,53 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="help-irc">
+
+    <info>
+        <link type="guide" xref="index#get-help"/>
+        <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="draft"/>
+        <desc>Foresight IRC.</desc>
+        <credit type="author">
+            <name>Og Maciel</name>
+            <email>ogmaciel@gnome.org</email>
+        </credit>
+        <copyright>
+            <year>2009</year>
+            <name>Foresight User Guide</name>
+        </copyright>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>Foresight IRC</title>
+
+    <p>
+        A number of Foresight users and developers chat online using Internet Relay Chat on the Freenode network in the #foresight channel. The #foresight channel is one of the most friendly IRC channels you'll come across, though you may have to be patient waiting for an answer at certain times.
+    </p>
+
+    <p>
+        To visit the #foresight channel, use <app>Pidgin</app>, available from <guiseq><gui>Applications</gui><gui>Internet</gui><gui>Pidgin</gui></guiseq>.
+    </p>
+
+    <p>
+        A number of different channels are available, depending on the help you are looking for:
+    </p>
+
+    <steps>
+        <item>
+            <p>#foresight: General discussion and help for Foresight Linux</p>
+        </item>
+        <item>
+            <p>#foresight-devel: Developer channel for packaging and Foresight development</p>
+        </item>
+        <item>
+            <p>#foresight-qa: Discussion of testing Foresight and new packages </p>
+        </item>
+        <item>
+            <p>#foresight-security: Security updates</p>
+        </item>
+        <item>
+            <p>#foresight-marketing: Building the Foresight community through advocacy, communication and conferences</p>
+        </item>
+    </steps>
+
+</page>

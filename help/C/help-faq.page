@@ -1,0 +1,29 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="help-faq">
+
+    <info>
+        <link type="guide" xref="index#get-help"/>
+        <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="draft"/>
+        <desc>Foresight FAQ.</desc>
+        <credit type="author">
+            <name>Og Maciel</name>
+            <email>ogmaciel@gnome.org</email>
+        </credit>
+        <copyright>
+            <year>2009</year>
+            <name>Foresight User Guide</name>
+        </copyright>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>Frequently Asked Questions</title>
+
+    <p>
+        Please check the FAQ page on the Foresight Wiki to see if your question
+        or problem is a commonly asked question. Click 
+        <link href="http://wiki.foresightlinux.org/display/docs/FAQ">here</link> to view the 
+        Frequently Asked Questions.
+    </p>
+</page>
