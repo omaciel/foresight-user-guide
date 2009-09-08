@@ -8,13 +8,10 @@
         <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="draft"/>
         <desc>Foresight FAQ.</desc>
         <credit type="author">
+            <year>2009</year>
             <name>Og Maciel</name>
             <email>ogmaciel@gnome.org</email>
         </credit>
-        <copyright>
-            <year>2009</year>
-            <name>Foresight User Guide</name>
-        </copyright>
         <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
     </info>
 
