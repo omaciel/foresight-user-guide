@@ -31,9 +31,7 @@
     <figure>
         <title>Foresight Linux default <gui>Desktop</gui> view</title>
         <desc>The default <app>Desktop</app> view</desc>
-        <media type="image" src="figures/foresight-desktop.png" mime="image/png" style="right">
-          <app>Desktop</app> view.
-        </media>
+        <media type="image" src="figures/foresight-desktop.png" mime="image/png" style="right" />
     </figure>
 
 </page>

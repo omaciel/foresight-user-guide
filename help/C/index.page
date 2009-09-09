@@ -15,6 +15,12 @@
 
   <title>Foresight User Guide</title>
 
+    <figure>
+        <title />
+        <desc />
+        <media type="image" src="figures/foresight-logo.png" mime="image/png" style="top" />
+    </figure>
+
   <section id="preface" style="2column">
     <title>Preface</title>
     <p>
