@@ -1,10 +1,10 @@
 <page xmlns="http://projectmallard.org/1.0/"
     xmlns:e="http://projectmallard.org/experimental/"
     type="topic"
-    id="preface-">
+    id="wireless">
 
     <info>
-        <link type="guide" xref="index#preface"/>
+        <link type="guide" xref="index#post-install"/>
         <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="stub"/>
         <desc>WiFi and Wireless.</desc>
         <credit type="author">
