@@ -1,0 +1,39 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="preface-">
+
+    <info>
+        <link type="guide" xref="index#preface"/>
+        <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="draft"/>
+        <desc>About This Guide.</desc>
+        <credit type="author">
+            <year>2009</year>
+            <name>Og Maciel</name>
+            <email>ogmaciel@gnome.org</email>
+        </credit>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>About This Guide.</title>
+
+    <p>
+        The goal of the Getting Started with Foresight Linux User Guide is to
+        provide a high level overview of using Foresight Linux, including the
+        <app>Conary</app> package manager, for users new to Linux or Foresight.
+    </p>
+    <p>
+        The User Guide also provides an overview of commonly used applications,
+        customizing your new installation, adding and removing software, and 
+        tips on getting help.
+    </p>
+
+    <figure>
+        <title>Foresight Linux default <gui>Desktop</gui> view</title>
+        <desc>The default <app>Desktop</app> view</desc>
+        <media type="image" src="figures/foresight-desktop.png" mime="image/png" style="right">
+          <app>Desktop</app> view.
+        </media>
+    </figure>
+
+</page>
