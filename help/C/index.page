@@ -17,10 +17,16 @@
 
   <section id="preface" style="2column">
     <title>Preface</title>
+    <p>
+        The Getting Started with Foresight Linux User Guide provides a high level overview of using Foresight Linux, including the Conary package manager, for users new to Linux or Foresight.
+    </p>
   </section>
 
   <section id="installing" style="2column">
     <title>Installing Foresight</title>
+    <p>
+        This section provide a high level overview of  downloading, burning and installing the latest version of Foresight.
+    </p>
   </section>
 
   <section id="post-install" style="2column">
@@ -40,6 +46,9 @@
 
   <section id="get-help" style="2column">
     <title>Getting Help</title>
+    <p>
+        This section will inform you of the different ways to get help including a wiki, email and live chat.
+    </p>
   </section>
 
   <section id="get-involved" style="2column">
