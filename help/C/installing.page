@@ -1,0 +1,32 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="preface-">
+
+    <info>
+        <link type="guide" xref="index#installing"/>
+        <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="draft"/>
+        <desc>Installing.</desc>
+        <credit type="author">
+            <year>2009</year>
+            <name>Og Maciel</name>
+            <email>ogmaciel@gnome.org</email>
+        </credit>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>Installing.</title>
+
+    <p>
+        Once you have burned an image of Foresight Linux, put it in your CD or DVD drive, and reboot your computer.
+    </p>
+
+    <p>
+        Hit enter when given the option to install Foresight Linux in graphical mode.  The installer will walk you through formatting your hard drive and creating partitions, setting a root password, creating your user account and password, and timezone.  All packages will be automatically installed.
+    </p>
+
+    <p>
+        At this point the CD will be ejected from the drive, and you will be prompted to reboot.  Take the CD out of your drive, reboot your computer, and you will be running Foresight!
+    </p>
+
+</page>

@@ -1,0 +1,49 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="preface-">
+
+    <info>
+        <link type="guide" xref="index#installing"/>
+        <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="draft"/>
+        <desc>Burning an Image.</desc>
+        <credit type="author">
+            <year>2009</year>
+            <name>Og Maciel</name>
+            <email>ogmaciel@gnome.org</email>
+        </credit>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>Burning an Image.</title>
+
+    <p>
+        Using your favorite CD Burning application, choose <guilabel>Burn Image</guilabel> and burn the image to a blank DVD-R or CD-R.
+    </p>
+
+    <p>
+        If you are using Windows, a number of free disc and image burning applications are available to burn your Foresight image:
+    </p>
+
+    <steps>
+        <item>
+            <p>
+                <link href="http://www.glorylogic.com/index.html">Burnaware</link>
+            </p>
+        </item>
+        <item>
+            <p>
+                <link href="http://www.imgburn.com/">ImgBurn</link>
+            </p>
+        </item>
+        <item>
+            <p>
+                <link href="http://infrarecorder.sourceforge.net/">Infrarecorder</link>
+            </p>
+        </item>
+    </steps>
+
+    <p>
+        If you are using a Linux distribution, applications such as Brasero, GNOMEBaker or k3b will burn disc images.
+    </p>
+</page>

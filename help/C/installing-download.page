@@ -1,0 +1,28 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="preface-">
+
+    <info>
+        <link type="guide" xref="index#installing"/>
+        <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="draft"/>
+        <desc>Download and Burn.</desc>
+        <credit type="author">
+            <year>2009</year>
+            <name>Og Maciel</name>
+            <email>ogmaciel@gnome.org</email>
+        </credit>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>Download and Burn.</title>
+
+    <p>
+        The current release of Foresight Linux is 2.1.2. To download the latest version of Foresight, visit the <link href="http://www.foresightlinux.org/foresight-gnome/">downloads</link> page and download the CD image on 2 CDs, or the DVD image.
+    </p>
+
+    <p>
+        Foresight 2.1.2 features a new tar based installer, which is only available on the DVD ISO.  Installing the DVD should take less than 10 minutes to install, including formatting your hard drive.  It is highly recommended to use the DVD ISO if you can.
+    </p>
+
+</page>
