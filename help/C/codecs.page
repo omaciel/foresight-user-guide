@@ -4,9 +4,9 @@
     id="codecs">
 
     <info>
-        <link type="guide" xref="index#post-install"/>
+        <link type="guide" xref="index#sound-video"/>
         <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="stub"/>
-        <desc>Proprietary Codecs.</desc>
+        <desc>Install codecs to handle proprietary media formats.</desc>
         <credit type="author">
             <year>2009</year>
             <name>Og Maciel</name>
@@ -18,6 +18,7 @@
     <title>Proprietary Codecs.</title>
 
     <p>
+        To be entered!
     </p>
 
 </page>

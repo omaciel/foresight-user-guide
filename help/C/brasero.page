@@ -1,0 +1,30 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="brasero">
+
+    <info>
+        <link type="guide" xref="index#sound-video"/>
+        <revision pkgversion="0.8" version="0.1" date="2009-09-09" status="draft"/>
+        <desc>Burn CD/DVD easily and quickly.</desc>
+        <credit type="author">
+            <year>2009</year>
+            <name>Og Maciel</name>
+            <email>ogmaciel@gnome.org</email>
+        </credit>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>Burn CD/DVD.</title>
+
+    <p>
+        To be entered!
+    </p>
+
+    <figure>
+        <title>Foresight Linux default <gui>Desktop</gui> view</title>
+        <desc>The default <app>Desktop</app> view</desc>
+        <media type="image" src="figures/foresight-desktop.png" mime="image/png" style="right" />
+    </figure>
+
+</page>
