@@ -1,0 +1,49 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="tomboy">
+
+    <info>
+        <link type="guide" xref="index#productivity"/>
+        <revision pkgversion="0.8" version="0.1" date="2009-09-10" status="draft"/>
+        <desc>A simple, but powerful note taking application for the GNOME desktop.</desc>
+        <credit type="author">
+            <year>2009</year>
+            <name>Og Maciel</name>
+            <email>ogmaciel@gnome.org</email>
+        </credit>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>Tomboy Notes</title>
+
+    <p>Tomboy is a simple, but powerful note taking application for the GNOME desktop. Tomboy makes it easy to create lists, make notes, and link it all together.</p>
+
+    <p>To start using Tomboy, click on the yellow notepad and pencil icon in the upper right hand corner of your panel, and click Create New Note.   The first line, in larger font, is the name of your new note.  Edit this line to name your note, and then all text you enter on the lines below that will be your note.</p>
+
+
+    <figure>
+        <title>Tomboy Notes</title>
+        <desc></desc>
+        <media type="image" src="figures/tomboy.png" mime="image/png" style="right" />
+    </figure>
+
+    <title>Formatting Notes</title>
+
+    <p>Tomboy supports bullet notes and text formatting.   To create a bullet note, either highlight the text you want to be in a bullet list, and click the Text button in the menu and click on the Bullet checkbox towards the bottom of the menu.  All text highlighted will now be listed in bullets, or you will start a new bullet list.</p>
+
+    <p>To change the font, including size, italics, bolding and other options, highlight your text and click on the Text button in the middle of the menu, and choose the option you wish to apply to format your text.</p>
+
+    <title>Linking Notes</title>
+
+    <p>To link your current note to a new note, highlight the text you wish to link in your current note, and hit the Link button in your menu.  This will create a new note with the name of the text you had highlighted, and automatically link to your first note.</p>
+
+    <title>Plugins</title>
+
+    <p>Tomboy also has a plugin architecture, to enable additional functionality.  Some of the default plugins Tomboy features in a Foresight Linux installation include export to HTML, Note of the Day, and Bugzilla and Evolution integration.  More plugins are available for download, see the Tomboy page on the GNOME wiki for more information.</p>
+
+    <title>Searching your Notes</title>
+
+    <p>Tomboy also features the ability to search among all your notes.  Click the search box in the upper left hand corner of your menu and enter the text to search for.  Tomboy will display the results of all notes that meet the criteria of your search.</p>
+
+</page>

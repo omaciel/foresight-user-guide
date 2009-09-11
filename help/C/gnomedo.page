@@ -1,0 +1,64 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="gnomedo">
+
+    <info>
+        <link type="guide" xref="index#productivity"/>
+        <revision pkgversion="0.8" version="0.1" date="2009-09-10" status="draft"/>
+        <desc>Quickly search for many items present in your GNOME desktop environment (applications, Evolution contacts, Firefox bookmarks, files, artists and albums in Rhythmbox, Pidgin buddies, etc.) and perform commonly used actions on those items (Run, Open, Email, Chat, Play, etc.).</desc>
+        <credit type="author">
+            <year>2009</year>
+            <name>Og Maciel</name>
+            <email>ogmaciel@gnome.org</email>
+        </credit>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>GNOME Do</title>
+
+    <p><link href="http://do.davebsd.com//">GNOME Do</link> allows you to quickly search for many items present in your GNOME desktop environment (applications, Evolution contacts, Firefox bookmarks, files, artists and albums in Rhythmbox, Pidgin buddies, etc.) and perform commonly used actions on those items (Run, Open, Email, Chat, Play, etc.).</p>
+
+    <p>GNOME Do is installed by default in Foresight, and active upon logging in.  To start GNOME Do, use the Super key + the space bar.  (The Super key is also called the Windows key).  When you hit super-space to bring up GNOME Do, you will see:</p>
+
+    <figure>
+        <title>GNOME Do</title>
+        <media type="image" src="figures/do-start.png" mime="image/png" style="right" />
+    </figure>
+
+    <p>GNOME Do is a very powerful program that allows you to many things with just a couple of key presses.  You can start applications, search your desktop, look up words in the dictionary and more.  GNOME Do also features a robust plugin architecture, and you can download plugins to add functionality, such as connecting via SSH to servers, using Twitter, or having Banshee play songs.  A few examples of how to use GNOME Do are:</p>
+
+    <steps>
+        <item>
+            <p>Start an application, such as Banshee (music player):  Bring up GNOME Do by hitting super-space.  Start to type "Banshee".  It will autocomplete for you.  As soon as the Banshee icon appears, hit enter, and Banshee will start.</p>
+        </item>
+    </steps>
+
+    <figure>
+        <title>GNOME Do starting Banshee</title>
+        <media type="image" src="figures/do-banshee.png" mime="image/png" style="right" />
+    </figure>
+
+    <steps>
+        <item>
+            <p>You can quickly navigate to webpages by typing the URL.  Bring up GNOME Do by hitting super-space, enter a URL, such as www.google.com, and as it auto-completes and shows "Open URL" on the right, hit enter and it will open the URL you typed in your browser.</p>
+        </item>
+    </steps>
+
+    <figure>
+        <title>GNOME Do opening a URL</title>
+        <media type="image" src="figures/do-url.png" mime="image/png" style="right" />
+    </figure>
+
+    <steps>
+        <item>
+            <p>You can quickly open a directory using GNOME Do.  Bring up GNOME Do by hitting super-space, and enter the directory name, such as /usr/lib/ and hit enter when GNOME Do shows open directory, as seen in the below screenshot:</p>
+        </item>
+    </steps>
+
+    <figure>
+        <title>GNOME Do opening a directory</title>
+        <media type="image" src="figures/do-directory.png" mime="image/png" style="right" />
+    </figure>
+
+</page>

@@ -1,0 +1,38 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="firefox">
+
+    <info>
+        <link type="guide" xref="index#productivity"/>
+        <revision pkgversion="0.8" version="0.1" date="2009-09-10" status="draft"/>
+        <desc>Browse the web with style.</desc>
+        <credit type="author">
+            <year>2009</year>
+            <name>Og Maciel</name>
+            <email>ogmaciel@gnome.org</email>
+        </credit>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>Firefox Web Browser</title>
+
+    <p>Firefox is the default web browser for Foresight. Powered by the Gecko engine and developed by the Mozilla Foundation, Firefox features tabbed browsing, a customizable interface, and extensions and plugins.  Firefox is the world's most popular open source browser, available for Linux, Windows and Mac OS X.</p>
+
+    <figure>
+        <title>Firefox Web Browser</title>
+        <media type="image" src="figures/firefox.png" mime="image/png" style="right" />
+    </figure>
+
+    <p>To start Firefox, choose <guiseq>Applications</guiseq> <guiseq>Internet</guiseq> <guiseq>Firefox Web Browser</guiseq>.  Firefox will start with Firefox's customized Google search page as the default page.</p>
+
+    <title>Tabbed Browsing</title>
+    <p>To open a new tab, hit ctrl-t or click <guiseq>File</guiseq> <guiseq>New Tab</guiseq>.  You can drag and drop tabs in the tab bar to change the order of the tabs currently open.  To close a tab click the x on the right hand sight of the tab.  Choose Tabs in the menu to quickly change which tab is the focus at any time.</p>
+
+    <title>Add Ons</title>
+    <p>Add ons add additional functionality created by the community to add features.  To view add ons available for download, click <guiseq>Bookmarks</guiseq> <guiseq>Mozilla Firefox</guiseq> <guiseq>Customize Firefox</guiseq>.  This will take you to the Firefox home page where you can browse Add Ons available for download.  A few examples of extensions you can download include Greasemonkey which allows you to customize how webpages display, Ad blocker to hide online web ads, del.icio.us bookmarks manager to save and manage your online bookmarks, and more.  To learn more about the Add Ons available in Firefox, visit the <link href="https://addons.mozilla.org/en-US/firefox/">add ons page</link> at the Firefox web site.</p>
+
+    <title>Epiphany</title>
+    <p>For users who wish to use Epiphany, the GNOME Web Browser, Epiphany is available for installation in the Foresight repositories as well.  Epiphany offers a more integrated browsing experience in GNOME, and also features Smart Bookmarks.  For more information about Epiphany, visit the <link href="http://projects.gnome.org/epiphany/">Epiphany home page</link>.</p>
+
+</page>

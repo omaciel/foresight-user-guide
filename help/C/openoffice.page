@@ -1,0 +1,42 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="openoffice">
+
+    <info>
+        <link type="guide" xref="index#productivity"/>
+        <revision pkgversion="0.8" version="0.1" date="2009-09-10" status="draft"/>
+        <desc>A full featured office suite, compatible with other office suites on the market.</desc>
+        <credit type="author">
+            <year>2009</year>
+            <name>Og Maciel</name>
+            <email>ogmaciel@gnome.org</email>
+        </credit>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>OpenOffice.Org</title>
+
+    <p>OpenOffice.org is an full featured office suite, compatible with other office suites on the market.  OpenOffice.org features the following applications as part of it's suite:</p>
+
+    <steps>
+        <item>
+            <p><app>Base</app>: Base is a tool to manage databases, including creating and editing tables, viewing tables including adding, editing and deleting records, and a Report Wizard to create impressive reports from your data.  Base includes a a full version of the HSQL database engine, and also supports other popular databases such as MySQL, Access and others through industry standard ODBC and JDBC drivers.  Learn more about <link href="http://www.openoffice.org/product/base.html">Base at the OpenOffice.org website</link>.</p>
+        </item>
+        <item>
+            <p><app>Calc</app>: Calc is an advanced spreadsheet application with features for everyone from beginners to advanced users.  Use Calc to compute and perform complex calculations and formulas, create charts and graphs from data, and many more advanced spreadsheet features.   Learn more about <link href="http://www.openoffice.org/product/calc.html">Calc at the OpenOffice.org website</link>.</p>
+        </item>
+        <item>
+            <p><app>Draw</app>: Draw is a tool to create graphics from diagrams to process flows to org charts.  Draw features the ability to manipulate objects in 2D or 3D, easily group and ungroup objects, and smart connectors to connect diagrams.  To see a ful list of features, <link href="http://www.openoffice.org/product/draw.html">click here</link>.</p>
+        </item>
+        <item>
+            <p><app>Impress</app>: Create multimedia presentations using Impress.  Add 2D and 3D clip art, special effects, and animations to capture your audience's attention.  To learn more about Impress and to see a demonstration, <link href="http://www.openoffice.org/product/impress.html">click here</link>.</p>
+        </item>
+        <item>
+            <p><app>Math</app>: Math is a component within OpenOffice.org for computing scientific calculations.  Learn more about <link href="http://www.openoffice.org/product/math.html">Math here</link>.</p>
+        </item>
+        <item>
+            <p><app>Writer</app>: Writer is a full featured word processor that makes it easy to write everything from a brief memo to a full novel.  Save your files in OpenDocument format, or export to PDF, HTML or Microsoft Word documents as well.</p>
+        </item>
+
+</page>
