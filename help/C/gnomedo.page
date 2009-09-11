@@ -6,7 +6,7 @@
     <info>
         <link type="guide" xref="index#productivity"/>
         <revision pkgversion="0.8" version="0.1" date="2009-09-10" status="draft"/>
-        <desc>Quickly search for many items present in your GNOME desktop environment (applications, Evolution contacts, Firefox bookmarks, files, artists and albums in Rhythmbox, Pidgin buddies, etc.) and perform commonly used actions on those items (Run, Open, Email, Chat, Play, etc.).</desc>
+        <desc>Quickly search for many items present in your GNOME desktop environment.</desc>
         <credit type="author">
             <year>2009</year>
             <name>Og Maciel</name>

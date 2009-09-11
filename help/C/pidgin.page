@@ -32,23 +32,32 @@
     </p>
 
 
+    <section id="adding-protocols">
     <title>Adding protocols</title>
 
     <p>The first time you start Pidgin you will be prompted to add an account.   Choose the Protocol of the service you use, such as Yahoo!, Jabber, MSN or AIM.  Enter your screen name and password, and if you want Pidgin to remember your password each time you log in, click the Remember password box.  Pidgin allows you to use different protocols at the same time, to add another service, just click the add button.</p>
+    </section>
 
+    <section id="instant-messenging">
     <title>Instant Messenging</title>
 
     <p>If you are using a Protocol you have used previously, upon logging in, Pidgin will show you any buddies and friends that you've added in the past.  To add a new buddy, hit ctrl-b or choose Buddies from the menu, and then  Add Buddy.  Enter their screen name and they will be added to your Buddy list.</p>
 
     <p>To begin a conversation with one of your buddies, double click the screen name of your buddy.  To learn more about the many features of chatting via Pidgin, visit the Pidgin FAQ.</p>
+    </section>
 
+    <section id="irc">
     <title>IRC</title>
 
     <p>Pidgin also functions as a full featured IRC client.  To chat in IRC, add an account, using IRC as the protocol and set your screen name.  To start IRC, choose Accounts from the menu, Enable Accounts and the IRC network you specified, such as #Freenode, the network Foresight uses.  You will connect to the IRC network, and type /join #channelname to join a specific channel to chat with other users.</p>
 
     <p>Pidgin is the default application for IRC in Foresight.  Xchat-GNOME is also availabe in the repositories for users who want a dedicated IRC client.  To install Xchat-GNOME, search for xchat in PackageKit, or from the comamand line type sudo conary update xchat-gnome.</p>
+    </section>
+
+    <section id="plugins">
     <title>Plugins</title>
 
     <p>Pidgin features a number of additional plugins to enable additional functionality, such as encryption, customizing your GUI for when buddies log in or out, and an IRC plugin for additional IRC functionality.  For download links and more information, visit the Pidgin Plugins page.</p>
+    </section>
 
 </page>

@@ -19,30 +19,45 @@
 
     <p>Evolution is a full featured email client, supporting POP and IMAP, addressbook and calendaring application for the GNOME desktop.  Evolution also features:</p>
 
-    <steps>
-        <item>Spam filtering</item>
-        <item>GPG security and key signing</item>
-        <item>Search Folders, allowing you to filter email based on your criteria</item>
-        <item>Web calendar integration</item>
-        <item>Manage multiple email accounts</item>
-    <steps>
+    <list>
+        <item>
+            <p>Spam filtering</p>
+        </item>
+        <item>
+            <p>GPG security and key signing</p>
+        </item>
+        <item>
+            <p>Search Folders, allowing you to filter email based on your criteria</p>
+        </item>
+        <item>
+            <p>Web calendar integration</p>
+        </item>
+        <item>
+            <p>Manage multiple email accounts</p>
+        </item>
+    </list>
 
     <figure>
         <title>Evolution Email Client</title>
-        <media type="image" src="figures/evolution.png" mime="image/png" style="right" />
+        <media type="image" src="figures/evolution.png" mime="image/png" style="right" height="75%" width="75%" />
     </figure>
 
-    <Evolution is one of the most feature rich applications for the GNOME desktop.  The below topics are just an overview of what Evolution can do.  To learn more, visit the Evolution User Guide, available in the GNOME help.  Click System in your panel, then help, and enter "Evolution" in the search box.  Or visit the Evolution homepage for more information.</p>
+    <p>Evolution is one of the most feature rich applications for the GNOME desktop.  The below topics are just an overview of what Evolution can do.  To learn more, visit the Evolution User Guide, available in the GNOME help.  Click System in your panel, then help, and enter "Evolution" in the search box.  Or visit the Evolution homepage for more information.</p>
 
+    <section id="adding-account">
     <title>Adding an account</title>
     <p>The first time you start Evolution, you will be prompted to enter your email account details.   Enter your name and email address, and click next.  Choose your "Server Type", most users will use POP, and your server information and username.   (This information should be available from your ISP).  Click next, and enable any of the receiving options such as automatically checking email every ten minutes.  Click next and configure your sent mail settings.  Choose your "Server Type, most users will use SMTP, and enter your server name.  Click next, and enter the name you wish to use for the account in Evolution, usally your email address, and you're finished.  To add additional email accounts, click Edit in the menu, Preferences, Mail Accounts, and Add.</p>
 
     <p>To receive new email, click the Send / Receive button in the left hand corner.</p>
+    </section>
 
+    <section id="evolution-contacts">
     <title>Evolution Contacts</title>
     <p>In Evolution, Contacts are individuals you add to your addressbook.  A single contact is called a Card.  To add a new Card to Evolution, click on Contacts on the left hand menu, and then New and Contact.  Enter the contact information, including name, email address, address or instant messenger contact information.</p>
+    </section>
 
+    <section id="calendars">
     <title>Calendars</title>
     <p>Evolution supports the ability to manage multiple calendars, both local, CalDAV and web based calendars.   To create a new calendar, click File, then New, then Calendar.  If the calendar is one to be saved only on your computer, enter the name and color.  If it is an internet based calendar, enter the name, color, URL and how often the calendar should be refreshed for changes and updates.</p>
-
+    </section>
 </page>

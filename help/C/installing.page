@@ -1,12 +1,12 @@
 <page xmlns="http://projectmallard.org/1.0/"
     xmlns:e="http://projectmallard.org/experimental/"
     type="topic"
-    id="installing-final">
+    id="installing-part3">
 
     <info>
         <link type="guide" xref="index#installing"/>
         <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="draft"/>
-        <desc>Installing.</desc>
+        <desc>Installing the distribution onto your system.</desc>
         <credit type="author">
             <year>2009</year>
             <name>Og Maciel</name>
