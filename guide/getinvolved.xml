@@ -61,22 +61,22 @@
 	<para>It is recommended that new developers submit patches to current bugs and packages before new packages. Developers new to packaging can create their own repository on <ulink url="http://www.rpath.com/rbuilder/" type="http">rBuilder</ulink> as well, and commit packages to their personal repository and the QA team will test them for compatibility.  Commit access is only given after a developer has shown a demonstrated and sustained level of involvement.
 	</para>		
 	
-	<para>For more information on packaging for Foresight 2.1.2, visit the <ulink url="https://wiki.foresightlinux.org/display/DEV/Foresight+Linux+2.x#ForesightLinux2.x-PackagingforForesight2.xDevelopment" type="http">Development space on the Foresight wiki</ulink>:</para>
+	<para>For more information on packaging for Foresight 2.1.2, visit the <ulink url="http://wiki.foresightlinux.org/display/DEV/Foresight+Linux+2.x#ForesightLinux2.x-PackagingforForesight2.xDevelopment" type="http">Development space on the Foresight wiki</ulink>:</para>
 	
 	<itemizedlist mark="bullet">
 	<listitem>
 	<para>
-	<ulink url="https://wiki.foresightlinux.org/display/DEV/Foresight+Linux+2.0+Development+Overview" type="http">Foresight 2.1.2 Development Overview</ulink>
+	<ulink url="http://wiki.foresightlinux.org/display/DEV/Foresight+Linux+2.0+Development+Overview" type="http">Foresight 2.1.2 Development Overview</ulink>
 	</para>
 	</listitem>
 	<listitem>
 	<para>
-	<ulink url="https://wiki.foresightlinux.org/display/DEV/HOWTO+setup+a+2.x+build+environment" type="http">How to setup a Foresight 2.1.2 build environment</ulink>
+	<ulink url="http://wiki.foresightlinux.org/display/DEV/HOWTO+setup+a+2.x+build+environment" type="http">How to setup a Foresight 2.1.2 build environment</ulink>
 	</para>
 	</listitem>
 	<listitem>
 	<para>
-	<ulink url="https://wiki.foresightlinux.org/display/DEV/HOWTO+Create+a+package+for+Foresight+2.x" type="http">How to create packages for Foresight 2.1.2</ulink>
+	<ulink url="http://wiki.foresightlinux.org/display/DEV/HOWTO+Create+a+package+for+Foresight+2.x" type="http">How to create packages for Foresight 2.1.2</ulink>
 	</para>
 	</listitem>
 	</itemizedlist>
