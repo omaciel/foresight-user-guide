@@ -1,0 +1,38 @@
+<chapter id="gnome-shell">
+		<title>Gnome-Shell</title>
+		<para>This chapter is about Gnome-Shell, next generation of Gnome. 
+		</para>
+<!-- ============= Document Body ============================= -->
+
+<!-- ============= Installation ============================== -->
+
+	<sect1 id="installation">
+	<title>How to install Gnome-Shell</title>
+	<para>The first thing you need to do, is to install Gnome-Shell.
+	</para>
+	<literal>sudo conary update gnome-shell</literal>
+	<para>Open Desktop Effects from: System > Preferences > Desktop Effects
+	</para>
+
+				<imageobject>
+				  <imagedata fileref="figures/Desktop-Effects.png" format="PNG"/>
+					 </imageobject>
+
+	<para>Choose Gnome Shell, and it will change current desktop to Gnome-Shell.
+	</para>
+
+	</sect1>
+
+<!-- ============= Configuration ============================== -->
+
+	<sect1 id="configuration">
+	<title>Configure Gnome-Shell</title>
+	<para>There isnt much to configure in Gnome-Shell. But there is few things.
+	</para>
+    <para>Open Configuration Editor(gconf-editor), go to: /desktop/gnome/shell/    </para>
+    <para>There you can find few settings you can enable/disable.
+    </para>
+
+	</sect1>
+
+</chapter>
