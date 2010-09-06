@@ -6,7 +6,7 @@
     <info>
         <link type="guide" xref="index#post-install"/>
         <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="stub"/>
-        <desc>Using Sudo.</desc>
+        <desc>Gain administrator privileges with sudo.</desc>
         <credit type="author">
             <year>2009</year>
             <name>Og Maciel</name>
