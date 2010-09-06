@@ -15,7 +15,7 @@
         <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
     </info>
 
-    <title>Burning an Image.</title>
+    <title>Burning an Image</title>
 
     <p>
         Using your favorite CD Burning application, choose <gui>Burn Image</gui> and burn the image to a blank DVD-R or CD-R.
