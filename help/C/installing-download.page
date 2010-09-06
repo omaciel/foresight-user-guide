@@ -15,7 +15,7 @@
         <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
     </info>
 
-    <title>Downloading.</title>
+    <title>Downloading</title>
 
     <p>
         The current release of Foresight Linux is 2.1.2. To download the latest version of Foresight, visit the <link href="http://www.foresightlinux.org/foresight-gnome/">downloads</link> page and download the CD image on 2 CDs, or the DVD image.

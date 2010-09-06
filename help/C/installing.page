@@ -15,7 +15,7 @@
         <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
     </info>
 
-    <title>Installing.</title>
+    <title>Installing</title>
 
     <p>
         Once you have burned an image of Foresight Linux, put it in your CD or DVD drive, and reboot your computer.
