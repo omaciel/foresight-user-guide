@@ -6,7 +6,7 @@
     <info>
         <link type="guide" xref="index#preface"/>
         <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="draft"/>
-        <desc>About This Guide.</desc>
+        <desc>Goals of this guide.</desc>
         <credit type="author">
             <year>2009</year>
             <name>Og Maciel</name>
