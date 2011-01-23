@@ -6,7 +6,6 @@ export sysconfdir = /etc
 export bindir = $(prefix)/bin
 export datadir = $(prefix)/share
 export libdir = $(prefix)/lib
-export mandir = $(prefix)/share/man
 
 bin_files = foresight-user-guide
 extra_files = \
@@ -26,7 +25,6 @@ dist_files = $(bin_files) $(extra_files) $(doc_files)
 
 install-mkdirs:
 	mkdir -p $(DESTDIR)$(bindir)
-	mkdir -p $(DESTDIR)$(mandir)/man1
 	mkdir -p $(DESTDIR)$(datadir)/foresight-user-guide/help/C/figures
 	mkdir -p $(DESTDIR)$(datadir)/applications
 	mkdir -p $(DESTDIR)$(datadir)/pixmaps
