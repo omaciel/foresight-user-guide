@@ -18,6 +18,26 @@
     <title>WiFi and Wireless</title>
 
     <p>
+        Foresight Linux comes with Network Manager installed by default.
+        Installing wireless drivers is outside the scope of this guide, but
+        Foresight Linux does come with Intel's binary drivers included by
+        default, madwifi for Atheros cards, and ndiswrapper for wireless cards
+        with Windows only drivers.
+    </p>
+
+    <p>
+        Assuming your wireless card is working, double click the Network
+        Manager icon in the upper right corner of your panel.  Choose the name
+        of the wireless newtork you wish to connect to, and enter the WEP key
+        if necessary.  Network Manager will then automatically connect, and
+        re-connect at reboot in the future.
+    </p>
+
+    <p>
+        The first time you enter a WEP key, you will be prompted to create a
+        GNOME-Keyring password.  GNOME-Keyring manages all the passwords on
+        your system.  Every time you log in, you will be promoted for this
+        password, which will then enable WEP for you automatically upon login.
     </p>
 
 </page>
