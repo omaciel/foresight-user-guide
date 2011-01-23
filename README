@@ -1,0 +1,21 @@
+Foresight User Guide
+
+Run
+===
+To run it, execute:
+  $ ./foresight-user-guide
+
+Hacking
+=======
+* Written in mallard [0].
+
+* All content is under the 'help' directory.
+
+* The 'guide' directory contains the old user guide written in docbook. Please
+  don't bother to update stuff there.
+
+* See the TODO file for what to do.
+
+Links
+====
+0. http://projectmallard.org/
