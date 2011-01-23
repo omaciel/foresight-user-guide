@@ -18,6 +18,93 @@
     <title>GNOME Panel</title>
 
     <p>
+        You can customize your GNOME panel by adding applets to it.  To add
+        applets, right click on your panel (either top or bottom, your choice),
+        and click "Add to Panel".  Popular applets to add to your panel
+        include:
     </p>
+
+    <section id="tomboy">
+    <title>Tomboy Notes</title>
+    <p>
+        Tomboy is a simple and easy to use note-taking application.  Tomboy's
+        features include highlighting text, inline spell checking, auto-linking
+        web and email addresses, undo/redo, font styling and sizing, bulleted
+        lists, and pinning notes.  Tomboy also features the ability to add
+        plugins.
+    </p>
+    </section>
+
+    <section id="deskbar">
+    <title>Deskbar</title>
+    <p>
+        Deskbar is a powerful applet to let you search for many different
+        things, including files on your computer using Beagle, web searches
+        using different search engines, launch programs directly, search
+        documentation, and even search your email.
+    </p>
+    <p>
+        Right click on your panel, and add the Deskbar applet.  The default is
+        to add the Deskbar icon to your panel: Click on the icon, and a search
+        area will appear, type your query and hit enter, then click on the
+        method of your search.
+    </p>
+    <figure>
+        <title>Default Deskbar Icon</title>
+        <media type="image" src="figures/deskbar-icon.png" mime="image/png"/>
+    </figure>
+    <p>
+        You can change the appearance of Deskbar on your panel, so you can have
+        a field to directly type your queries in, which looks like this:
+    </p>
+    <figure>
+        <title>Default Deskbar Icon</title>
+        <media type="image" src="figures/deskbar-entry.png" mime="image/png"/>
+    </figure>
+    <p>
+        Right click on the Deskbar applet, choose Preferences.  Click on the
+        View tab, and click on the radio button for Entry in Panel.
+    </p>
+    </section>
+
+    <section id="system-monitor">
+    <title>System Monitor</title>
+    <p>
+        When adding the System Monitor applet, it defaults to showing the CPU
+        load of your computer.  You can also add memory, network, swap, load
+        and harddisk monitors by right clicking on the applet on your panel,
+        and then choosing the checkbox of the monitor you'd like to add.
+    </p>
+    </section>
+
+    <section id="laptop">
+    <title>Laptop and Notebooks</title>
+    <p>
+        There are a number of tools you can add to your laptop to monitor
+        performance.
+    </p>
+    </section>
+
+    <section id="battery">
+    <title>Battery Charge Monitor</title>
+    <p>
+        Monitor how much battery power remaining in your laptop.
+    </p>
+    </section>
+
+    <section id="brightness">
+    <title>Brightness Applet</title>
+    <p>
+        Adjust the brightness of your your laptop's screen to help conserve
+        battery power.
+    </p>
+    </section>
+
+    <section id="temparature">
+    <title>Laptop Temperature Monitor</title>
+    <p>
+        Monitor the CPU temperature of your laptop to avoid overheating.
+    </p>
+    </section>
 
 </page>
