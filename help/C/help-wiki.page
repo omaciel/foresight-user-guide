@@ -21,7 +21,7 @@
     The Foresight Wiki contains many howto's and information related to using
     and developing Foresight Linux. The wiki is contributed by users, and 
     contains the latest information about Foresight. 
-    <link href="http://issues.foresightlinux.org/confluence/homepage.action">
+    <link href="http://wiki.foresightlinux.org">
     Click here to visit the Foresight Wiki</link> and a search box is available
     in the upper right hand corner.
     </p>
@@ -34,7 +34,7 @@
 
     <steps>
         <item>
-            <p><link href="http://issues.foresightlinux.org/secure/Dashboard.jspa">Visit 
+            <p><link href="http://issues.foresightlinux.org">Visit
             the JIRA home page</link>.</p>
         </item>
         <item>
