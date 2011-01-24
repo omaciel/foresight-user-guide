@@ -1,9 +1,24 @@
 TODO
 
-* Fill each section with real content! (Possibly copy-and-paste from the
-  'guide' dir).
+* Fill these section with real content! (Copy-and-paste from respective pages
+  in the 'guide' dir).
+  + Post Installation Configuration
+    - Installing the latest updates
+    - PackageKit Overview
+    - Using Sudo
+    - Video Card Binary Drivers
+  + Sound and Video
+    - Banshee Music Player
+    - Burn CD/DVD
+    - F-Spot
+    - Sound Juicer
+    - Totem Movie Player
+  + Adding and Removing Software
+  + Getting Involved
+
 * Re-write Preface section
 * Fix Help link in Preface
+
 * The order of 'burning an image' and 'downloading' seems to be wrong.
 * "Frequently Asked Questions" has an reference to a wiki page. Need to confirm
   the link works once wiki is brought up.
