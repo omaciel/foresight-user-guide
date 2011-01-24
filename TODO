@@ -5,7 +5,8 @@ TODO
   + Post Installation Configuration
     - Installing the latest updates
     - PackageKit Overview
-    - Video Card Binary Drivers
+    - Video Card Binary Drivers # this needs some re-thinking, (e.g. DRM has
+      been enabled for ATI)
   + Sound and Video
     - Banshee Music Player
     - Burn CD/DVD
