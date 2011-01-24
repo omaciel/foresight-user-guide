@@ -17,7 +17,12 @@
 
     <title>Installing the latest updates</title>
 
+    <section>
+    <title>Updating via Terminal</title>
     <p>
+        Open <guiseq><gui>Applications</gui><gui>Accessories</gui><gui>Terminal</gui></guiseq>, and type:
     </p>
+    <code>sudo conary updateall</code>
+    </section>
 
 </page>
