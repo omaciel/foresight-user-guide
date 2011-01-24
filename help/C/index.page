@@ -38,7 +38,7 @@
   <section id="post-install" style="2column">
     <title>Post Installation Configuration</title>
     <p>
-        The Post Installation Configuration of the Getting Started with Foresight Linux Userguide will take you through using <app>sudo</app>; using <app>PackageKit</app> to update your computer with the latest dates, setting up your video card and enabling 3D effects with <app>Compiz Fusion</app>.
+        The Post Installation Configuration of the Getting Started with Foresight Linux Userguide will take you through using <app>sudo</app>; updating your computer with the latest updates, setting up your video card and enabling 3D effects with <app>Compiz Fusion</app>.
     </p>
   </section>
 

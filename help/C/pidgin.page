@@ -51,7 +51,15 @@
 
     <p>Pidgin also functions as a full featured IRC client.  To chat in IRC, add an account, using IRC as the protocol and set your screen name.  To start IRC, choose Accounts from the menu, Enable Accounts and the IRC network you specified, such as #Freenode, the network Foresight uses.  You will connect to the IRC network, and type /join #channelname to join a specific channel to chat with other users.</p>
 
-    <p>Pidgin is the default application for IRC in Foresight.  Xchat-GNOME is also availabe in the repositories for users who want a dedicated IRC client.  To install Xchat-GNOME, search for xchat in PackageKit, or from the comamand line type sudo conary update xchat-gnome.</p>
+    <p>
+        Pidgin is the default application for IRC in Foresight.
+        <app>Xchat-Gnome</app> is also availabe in the repositories for users
+        who want a dedicated IRC client.  To install Xchat-Gnome, from the
+        comamand line type:
+    </p>
+
+    <code>sudo conary update xchat-gnome</code>
+
     </section>
 
     <section id="plugins">
