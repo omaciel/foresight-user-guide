@@ -8,7 +8,6 @@ TODO
     - Video Card Binary Drivers # this needs some re-thinking, (e.g. DRM has
       been enabled for ATI)
   + Sound and Video
-    - Burn CD/DVD
     - Sound Juicer
     - Totem Movie Player
   + Adding and Removing Software

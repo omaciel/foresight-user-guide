@@ -18,13 +18,90 @@
     <title>Burn CD/DVD</title>
 
     <p>
-        To be entered!
+        Brasero is an application for writing to recordable CDs or DVDs.  Burn
+        images, music, data or make an exact copy of a disc.
     </p>
 
     <figure>
-        <title>Foresight Linux default <gui>Desktop</gui> view</title>
-        <desc>The default <app>Desktop</app> view</desc>
-        <media type="image" src="figures/foresight-desktop.png" mime="image/png" style="right" />
+        <title>Brasero CD / DVD Burning</title>
+        <desc></desc>
+        <media type="image" src="figures/brasero.png" mime="image/png" style="right" />
     </figure>
+
+    <p>
+        To start Brasero, choose the <guiseq><gui>Applications</gui><gui>Sound
+        &amp; Video</gui><gui>Brasero Disc Burner</gui></guiseq>.
+    </p>
+
+    <p>
+        From the main Brasero menu that starts, choose which project you would
+        like to start:
+    </p>
+
+    <section>
+    <title>Burn an Audio Project (traditional music CD)</title>
+    <p>
+        To burn an audio CD, insert a blank disc in to your CDRW drive.  Click
+        on <gui>Audio project</gui>.  In the bottom left hand corner of Brasero, click on
+        the Audio CD icon and choose the size of the CD you inserted, such as
+        74 minutes or 80 minutes.
+    </p>
+    <p>
+        On the right side of Brasero, is the file browser.  Browse your home
+        directory and find the location of the audio files such as OGG, FLAC or
+        MP3 you wish to create an audio CD from.  To add a file, double click
+        the audio file, or drag and drop from the file browser on the right to
+        the Audio project on the left hand side of Brasero. Brasero will
+        automatically calculate how much time each song is in the bottom bar
+        along the Audio Project.  If Brasero displays "Oversized", you have
+        added more songs than will actually fit on the CD.  To remove a song,
+        highlight the song and right lick your mouse and click remove, or use
+        the delete key on your keyboard.
+    </p>
+    <p>
+        Once you have added the songs in the order you have chosen, click the
+        Burn button to burn your project, and Brasero will automatically turn
+        your audio files to an Audio CD to be played in your CD player.
+    </p>
+    </section>
+
+    <section>
+    <title>Burn a Data Project (Backup your data to a CD or DVD)</title>
+    <p>
+        To backup your data to CD or DVD, click on <gui>Data project</gui>.  In the bottom
+        left hand corner of Brasero, click on the CD icon and choose the size
+        of the CD or DVD you inserted, such as a 700 MB CD or 4.3 GB DVD.
+    </p>
+    <p>
+        To add data to your disc, drag and drop files from the Nautilus File
+        Browser in to Brasero, or from the File Browser on the right hand side
+        of Brasero to the Data Project on the left hand side.  When you have
+        added all the files you wish to add to CD or DVD, click the Burn
+        button, and Brasero will backup your data.
+    </p>
+    </section>
+
+    <section>
+    <title>Burn an exact 1:1 copy</title>
+    <p>
+        To make an exact copy of a CD or DVD, insert the disc you wish to copy
+        and start Brasero.  If you have a second drive, insert a blank disc
+        into your CD/DVD-RW drive. Click on <gui>Disc Copy</gui>.  Brasero will
+        prompt you to choose your source drive (with the disc to be copied in
+        it) and which drive you will burn to.  If you only have one drive, such
+        as a laptop, Brasero will copy to the hard drive, and then burn to
+        disc.
+    </p>
+    </section>
+
+    <section>
+    <title>Burn an image (Such as the latest ISO image of Foresight Linux)</title>
+    <p>
+        To burn an image, such as an ISO,  choose <gui>Burn Image</gui>.
+        Brasero will prompt you to pick an image to burn.  Click on the
+        <gui>Path</gui> button, and choose the image, and click OK.  Then click
+        Burn, and Brasero will convert and burn the image to CD or DVD.
+    </p>
+    </section>
 
 </page>
