@@ -9,7 +9,6 @@ TODO
       been enabled for ATI)
   + Sound and Video
     - Sound Juicer
-    - Totem Movie Player
   + Adding and Removing Software
   + Getting Involved
 
@@ -21,6 +20,8 @@ TODO
   the link works once wiki is brought up.
 * Check whether the description in 'WiFi and Wireless' still applies.
 * Add note about checking sha1sum
+* codecs.page says "Foresight does not ship with support for MP3 and
+  DVD", while totem.page says "Foresight Linux ships with DVD support enabled"
 
 Software.xml
 

@@ -18,13 +18,64 @@
     <title>Totem Movie Player</title>
 
     <p>
-        To be entered!
+        <link href="http://www.gnome.org/projects/totem/">Totem</link> is the
+        official movie player of the GNOME desktop.  Totem supports video and
+        audio playback including DVD, AVI, Ogg Theora, MP3, Ogg Voribs and
+        other codecs supported by the Gstreamer framework.
+    </p>
+
+    <p>
+        To start Totem, click <guiseq><gui>Applications</gui><gui>Sound &amp;
+        Video</gui><gui>Movie Player</gui></guiseq>.  To choose video or audio
+        files to play, click <guiseq><gui>Movie</gui><gui>Open</gui></guiseq>,
+        and choose your files.  Alternatively, you can drag and drop on to
+        Totem from the file browser.  You can also enable the Sidebar, by click
+        on the <gui>Sidebar</gui> button in the lower right hand corner.  You
+        can drag and drop files on to the sidebar to add to the playlist.
+        Clicking the <gui>+</gui> or <gui>-</gui> buttons in
+        the sidebar will allow you to add and remove files as well.  Use the
+        arrow buttons to choose in which order to play your files.  To save an
+        audio playlist once you have the order of the files set, click the
+        <gui>Save</gui> icon which looks like a floppy disk, name your playlist
+        and click <gui>save</gui>.
     </p>
 
     <figure>
-        <title>Foresight Linux default <gui>Desktop</gui> view</title>
-        <desc>The default <app>Desktop</app> view</desc>
-        <media type="image" src="figures/foresight-desktop.png" mime="image/png" style="right" />
+        <title>Movie Player</title>
+        <desc></desc>
+        <media type="image" src="figures/totem.png" mime="image/png" style="right" />
     </figure>
+
+    <section>
+    <title>DVD and Video Playback</title>
+    <p>
+        Foresight Linux ships with DVD support enabled.  Inserting a DVD in
+        your computer's DVD drive will start Totem automically.  To play a
+        video file, click <gui>Movie</gui> in the upper left hand corner of the
+        menu, click <gui>Open</gui> and choose the video to play from your
+        computer.
+    </p>
+    <p>
+        Totem supports DVD menus, and by using your mouse, you can click on the
+        menu to choose to play the DVD or access other features. To move
+        forward or backwards in chapters, click the seek buttons in the lower
+        left hand corner of Totem.  To pause or play, hit the pause button
+        located in between the seek buttons in the lower left hand corner.
+    </p>
+    </section>
+
+    <section>
+    <title>Audio Playback</title>
+    <p>
+        Totem can also be used to listen to MP3, Ogg Vorbis and other audio
+        files.  Similar to Video Playback above, add files to Totem to play.
+        Totem uses a visualization plugin to display visual effects while
+        playing audio.
+    </p>
+    <p>
+        To learn more about Totem, visit <link
+        href="http://www.gnome.org/projects/totem/">Totem's homepage</link>.
+    </p>
+    </section>
 
 </page>
