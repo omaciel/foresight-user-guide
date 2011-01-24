@@ -18,6 +18,20 @@
     <title>Using Sudo</title>
 
     <p>
+        <cmd>sudo</cmd> is a command to allow you, logged in as a normal user,
+        to perform administrative tasks as root, the administrator of your
+        computer.  <cmd>sudo</cmd> is short for "superuser do".  A "superuser"
+        is the equivalent of an adminstrator on a Linux computer.  When
+        installing updates, drivers or changing configuration settings, you
+        will often have to perform those taks using the <cmd>sudo</cmd>
+        command.  You will be prompted for your administrative password to use
+        <cmd>sudo</cmd>.
     </p>
+
+    <figure>
+        <title>Using Sudo</title>
+        <desc></desc>
+        <media type="image" src="figures/sudo.png" mime="image/png" style="right" />
+    </figure>
 
 </page>
