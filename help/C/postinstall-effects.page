@@ -18,6 +18,35 @@
     <title>Compiz, 3D Effects for your Desktop</title>
 
     <p>
+        What is Compiz and Compiz Fusion? Compiz enables the 3D desktop, and
+        Compiz Fusion is a collection of 3D plugins.  From the Compiz Fusion
+        website:
     </p>
+    <quote>
+    <p>
+        "Compiz Fusion aims to provide an easy and fun-to-use
+        windowed environment, allowing use of the graphics hardware to render
+        each individual window and the entire screen, to provide some
+        impressive effects, speed and usefulness."
+        </p>
+    </quote>
+    <p>
+        Compiz Fusion enables a fully rendered 3D desktop, including animations
+        when you open or close an application, such as fire, wobbly windows,
+        and a rotating 3D cube when switching workspaces.  To learn more about
+        Compiz Fusion, visit the <link
+        href="http://www.compiz-fusion.org/">Compiz Fusion home page</link> or
+        see it in action.
+    </p>
+    <p>
+        To enable Compiz, assuming you are using a 3D capable driver, click
+        <guiseq><gui>System</gui><gui>Preferences</gui><gui>Destop
+        Effects</gui></guiseq>, and choose 'Compiz'.
+    </p>
+    <figure>
+        <title>Change Desktop Effects</title>
+        <media type="image" src="figures/desktop-effects.png" mime="image/png"/>
+    </figure>
+
 
 </page>
