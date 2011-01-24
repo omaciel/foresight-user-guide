@@ -4,12 +4,13 @@ TODO
   in the 'guide' dir).
   + Post Installation Configuration
     - Installing the latest updates
-    - PackageKit Overview
     - Video Card Binary Drivers # this needs some re-thinking, (e.g. DRM has
       been enabled for ATI)
   + Sound and Video
     - Sound Juicer
   + Adding and Removing Software
+    - PackageKit Overview
+    - More missing
   + Getting Involved
 
 * Re-write Preface section

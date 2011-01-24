@@ -4,7 +4,7 @@
     id="packagekit">
 
     <info>
-        <link type="guide" xref="index#post-install"/>
+        <link type="guide" xref="index#advanced"/>
         <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="stub"/>
         <desc>Graphical interface to add &amp; remove software and get updates.</desc>
         <credit type="author">
