@@ -18,13 +18,118 @@
     <title>Banshee Music Player</title>
 
     <p>
-        To be entered.
+        <link href="http://banshee.fm">Banshee</link> is a music
+        manager for GNOME written in Mono.  Banshee organizes all of your music
+        on your computer as well as your digital audio player.  Banshee
+        supports ripping music from CDs, burning music to disc, listening to
+        internet radio, Podcast support, and digital audio player support,
+        including transcoding.
+    </p>
+    <p>
+        To start Banshee, choose <guiseq><gui>Applications</gui><gui>Sound and
+        Video</gui><gui>Banshee Music Player</gui></guiseq>.
     </p>
 
     <figure>
-        <title>Foresight Linux default <gui>Desktop</gui> view</title>
-        <desc>The default <app>Desktop</app> view</desc>
-        <media type="image" src="figures/foresight-desktop.png" mime="image/png" style="right" />
+        <title>Banshee Music Player</title>
+        <desc></desc>
+        <media type="image" src="figures/banshee.png" mime="image/png" style="right" />
     </figure>
+
+    <section>
+    <title>Importing Music</title>
+    <p>
+        The first time you run Banshee, you will be prompted to import your
+        digital music collection.  You can import digital music files including
+        OGG, FLAC, MP3,  or WAV.  Banshee will then sort your music based on
+        artist, track name, track number or album.  Clicking on one of the
+        columns will make Banshee sort in that order.  To import music at a
+        later date, click "Music", then "Import" and choose the location on
+        your hard drive to import your music.
+    </p>
+    <p>
+        To import music from an audio CD, insert the CD in your CD-ROM drive.
+        The left hand side of Banshee on the side menu will display a CD icon,
+        and if you are connected to the internet, connect to Musicbrainz to
+        look up the title and song names and display that as well.  Click on
+        the CD icon on the left bar to display the songs on the CD.  Click on
+        "Import CD" in the upper right hand corner and Banshee will import the
+        songs in to your collection in the file format you've chosen in your
+        Preferences.  To choose the file format (OGG, MP3, FLAC or WAV), click
+        <guiseq><gui>Edit</gui><gui>Preferences</gui></guiseq> and choose from
+        the drop down menu towards the bottom.
+    </p>
+    </section>
+
+    <section>
+    <title>Playing Music</title>
+    <p>
+        To start playing a song, double click on the song or hit the play
+        button in the upper left corner.  Once the song if finished, Banshee
+        will play the next song.  You can also rate the song one to five starts
+        depending on how much you like the song, and sort by rating, or build a
+        smart playlist based on the rating.  Smart Playlists can be a very
+        powerful tool to build custom playlists.  To learn more about Smart
+        Playlists, visit <link href="http://banshee.fm/support/guide/">the
+        Banshee User Guide</link>.
+    </p>
+    </section>
+
+    <section>
+    <title>Podcasts</title>
+    <p>
+        Banshee supports subscribing and listening to Podcasts.  Choose
+        <guilabel>Podcasts</guilabel> on the left hand side menu.  To subscribe
+        to a Podcast, click on <menuchoice><guimenu>Menu</guimenu>
+        <guimenu>Subscribe to Podcast</guimenu></menuchoice>.  Enter the URI of
+        the Podcast you would like to subscribe to.  Banshee will then begin to
+        download the latest Podcast, and show all available dwonloads for the
+        URI in the bottom pane.  Click on the checkbox to download additional
+        Podcasts.
+    </p>
+    </section>
+
+    <section>
+    <title>Burning Music</title>
+    <p>
+        To burn music to CD, insert a blank CD-R into your CD-RW drive.
+        Banshee will display an icon on the left hand side menu.  From your
+        music library, drag and drop the music files you would like to burn to
+        CD.  Click on the blank CD and review the files you want to copy.  When
+        ready to burn, click on the Write CD button in the upper right hand
+        corner.  Banshee will automatically transcode your files such as FLAC,
+        OGG or MP3 to WAV during the burning process to create an audio CD.
+        When complete, Banshee will eject your CD and you will be able to
+        listen to it in a CD player.
+    </p>
+    </section>
+
+    <section>
+    <title>Internet Radio</title>
+    <p>
+        Banshee can also play internet radio streams.  Banshee comes with over
+        20 internet radio stations pre-programmed.  To being listening, click
+        on <gui>Radio</gui> on the left hand side menu, and then double click a
+        station to begin listening.  To add a station, click on the <gui>Add
+        Station</gui> in the upper right hand corner.  Assign the station to a
+        Station Group, Enter the name of the station in Station Title, copy the
+        URI in to the Stream URL, enter a description, which is optional and
+        click save to add your station.  Double click the station to start
+        listening.
+    </p>
+    </section>
+
+    <section>
+    <title>Digital Audio Players</title>
+    <p>
+        Banshee has support to manage your digital audio player, such as an
+        iPod or Creative Nomad.  Plug your DAP in via USB, and it will appear
+        in the left hand side menu.  You can drag and drop songs from your
+        music library on to your DAP by highlighting the songs in your library
+        and dragging them over the icon in the side menu. To learn more about
+        digital audio players, visit <link
+        href="http://banshee.fm/support/guide/">the Banshee User Guide</link>.
+    </p>
+    </section>
 
 </page>
