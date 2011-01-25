@@ -32,6 +32,11 @@
         To install the package, type:
     </p>
     <code>sudo conary update &lt;packagename&gt;</code>
+    <note style="tip"> <p>
+        The <cmd>update</cmd> action can be reverted using <cmd>conary rollback</cmd>.
+    </p>
+    <code>sudo conary rollback 1</code>
+    </note>
     </section>
 
     <section>

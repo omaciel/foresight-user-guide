@@ -23,16 +23,18 @@
         To remove a software package from your system, at the command line type:
     </p>
     <code>sudo conary erase &lt;packagename&gt;</code>
-    <p>
-        This will completely remove the package from your system, which can be
-        reverted using <cmd>conary rollback</cmd>.
-    </p>
+
     <note style="warning">
     <p>
         Do not use the <cmd>conary remove</cmd> command, always use <cmd>conary
         erase</cmd>.  Using <cmd>conary remove</cmd> to remove a packaged file
         instructs Conary never to allow it to be installed again.
     </p>
+    </note>
+    <note style="tip"> <p>
+        The <cmd>erase</cmd> action can be reverted using <cmd>conary rollback</cmd>.
+    </p>
+    <code>sudo conary rollback 1</code>
     </note>
     </section>
 
