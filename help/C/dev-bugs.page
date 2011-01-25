@@ -1,0 +1,37 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="dev-bugs">
+
+    <info>
+        <link type="guide" xref="index#get-involved"/>
+        <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="draft"/>
+        <desc></desc>
+        <credit type="author">
+            <year>2009</year>
+            <name>Og Maciel</name>
+            <email>ogmaciel@gnome.org</email>
+        </credit>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>Report and triage bugs</title>
+    <p>
+        Foresight Linux uses <app>FITS</app>, Foresight Issue Tracking System,
+        for issue and bug tracking. <link
+        href="http://issues.foresightlinux.org"
+        >FITS is available here</link>, and to report or triage
+        bugs please create an account.
+    </p>
+    <p>
+        To report an issue, use the search box in the upper right hand corner
+        and search for the package to make sure a bug report hasn't already
+        been created. If a bug hasn't been created, click <gui>Create New
+        Issue</gui> under the Foresight logo on the upper left. Fill in
+        the summary, assign a priority, and include as much information as
+        possible. You will receive an email once you create the bug, and when a
+        user or developer comments or fixes the bug, you will also receive an
+        email notification.
+    </p>
+
+</page>
