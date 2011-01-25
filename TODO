@@ -6,6 +6,9 @@ TODO
     - Video Card Binary Drivers # this needs some re-thinking, (e.g. DRM has
       been enabled for ATI)
   + Adding and Removing Software
+    - Conary Overview:
+      - maybe want a rewrite about the features of conary
+      - need a summary
     - More missing
   + Getting Involved
     - More missing
