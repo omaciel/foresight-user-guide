@@ -26,31 +26,4 @@
     in the upper right hand corner.
     </p>
 
-    <p>
-    To add content to the wiki, you will need to create an account. Creating an 
-    account is done through FITS, Foresight Issue Tracking System. Creating
-    an account in FITS also creates an account in the Foresight Wiki.
-    </p>
-
-    <steps>
-        <item>
-            <p><link href="http://issues.foresightlinux.org">Visit
-            the FITS home page</link>.</p>
-        </item>
-        <item>
-            <p>The first time you visit the FITS homepage, on the right hand of the page is the Login / Sign Up section.  Click on "Signup for an account". </p>
-        </item>
-        <item>
-            <p>Choose a Username and Password, and enter your name and email address and click sign up.</p>
-        </item>
-    </steps>
-
-    <figure>
-        <title>Create a FITS account</title>
-        <desc>Creating an account on FITS</desc>
-        <media type="image" src="figures/jira-create.png" mime="image/png" style="right">
-          <app>FITS</app> account creation.
-        </media>
-    </figure>
-
 </page>

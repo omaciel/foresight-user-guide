@@ -2,21 +2,22 @@ TODO
 
 * Fill these section with real content! (Copy-and-paste from respective pages
   in the 'guide' dir).
+# high priority
   + Post Installation Configuration
     - Video Card Binary Drivers # this needs some re-thinking, (e.g. DRM has
       been enabled for ATI)
   + Conary Overview: maybe want a rewrite about the features of conary
   + Getting Help - Mailing Lists
-  + Getting Involved
-    - Report and triage bugs - need to move the passage about creating FITS account
-    - Join the Security Team
-    - Becoming a developer
 
+# low priority
   + Adding and Removing Software
    - Installing software from other rBuilder repositories
    - Compiling custom software and installing development tools
    - No need to have "Updating with Package Kit" and "Updating via the command
      line". The post-install chapter already talks about updating.
+  + Getting Involved
+    - Join the Security Team
+    - Becoming a developer
 
 * Add shortcut to view next/previous page.
 * Some sections are lacking overview.

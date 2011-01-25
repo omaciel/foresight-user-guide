@@ -23,6 +23,23 @@
         >FITS is available here</link>, and to report or triage
         bugs please create an account.
     </p>
+    <steps>
+        <item>
+            <p>The first time you visit the FITS homepage, on the right hand of the page is the Login / Sign Up section.  Click on "Signup for an account". </p>
+        </item>
+        <item>
+            <p>Choose a Username and Password, and enter your name and email address and click sign up.</p>
+        </item>
+    </steps>
+
+    <figure>
+        <title>Create a FITS account</title>
+        <desc>Creating an account on FITS</desc>
+        <media type="image" src="figures/jira-create.png" mime="image/png" style="right">
+          <app>FITS</app> account creation.
+        </media>
+    </figure>
+
     <p>
         To report an issue, use the search box in the upper right hand corner
         and search for the package to make sure a bug report hasn't already

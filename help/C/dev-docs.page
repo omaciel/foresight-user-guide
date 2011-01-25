@@ -25,7 +25,13 @@
 
     <p>
         <link href="http://wiki.foresightlinux.org">Visit the Foresight wiki
-        here</link>, and create an account to add or edit wiki pages.
-    </p>	
+        here</link>, and edit content on the wiki, you will need to create an
+        account.  Creating an account is done through FITS, Foresight Issue
+        Tracking System. Creating an account in FITS also creates an account in
+        the Foresight Wiki.
+    </p>
+    <p>
+        FIXME: need a link to the FITS chapter.
+    </p>
 
 </page>
