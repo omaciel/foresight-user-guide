@@ -5,13 +5,17 @@ TODO
   + Post Installation Configuration
     - Video Card Binary Drivers # this needs some re-thinking, (e.g. DRM has
       been enabled for ATI)
-  + Adding and Removing Software
-    - Conary Overview:
-      - maybe want a rewrite about the features of conary
-    - More missing
+  + Conary Overview: maybe want a rewrite about the features of conary
   + Getting Involved
     - More missing
 
+  + Adding and Removing Software
+   - Installing software from other rBuilder repositories
+   - Compiling custom software and installing development tools
+   - No need to have "Updating with Package Kit" and "Updating via the command
+     line". The post-install chapter already talks about updating.
+
+* Add shortcut to view next/previous page.
 * Some sections are lacking overview.
 * The order of 'burning an image' and 'downloading' seems to be wrong.
 * "Frequently Asked Questions" has an reference to a wiki page. Need to confirm
