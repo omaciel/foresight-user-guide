@@ -25,4 +25,12 @@
     <code>sudo conary updateall</code>
     </section>
 
+    <p>
+        If this is the first time you have run <literal>updateall</literal>,
+        you may need to be patient.  The first time you run conary updateall
+        will take longer than normal as Conary calculates the packages and
+        versions currently installed.  Choose <gui>Y</gui> when asked if you
+        want to update the list of packages shown in the terminal output.
+    </p>
+
 </page>

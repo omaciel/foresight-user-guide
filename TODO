@@ -8,11 +8,11 @@ TODO
   + Adding and Removing Software
     - Conary Overview:
       - maybe want a rewrite about the features of conary
-      - need a summary
     - More missing
   + Getting Involved
     - More missing
 
+* Some sections are lacking overview.
 * The order of 'burning an image' and 'downloading' seems to be wrong.
 * "Frequently Asked Questions" has an reference to a wiki page. Need to confirm
   the link works once wiki is brought up.
