@@ -8,12 +8,9 @@ TODO
   + Sound and Video
     - Sound Juicer
   + Adding and Removing Software
-    - PackageKit Overview
     - More missing
   + Getting Involved
-
-* Re-write Preface section
-* Fix Help link in Preface
+    - More missing
 
 * The order of 'burning an image' and 'downloading' seems to be wrong.
 * "Frequently Asked Questions" has an reference to a wiki page. Need to confirm
@@ -22,6 +19,11 @@ TODO
 * Add note about checking sha1sum
 * codecs.page says "Foresight does not ship with support for MP3 and
   DVD", while totem.page says "Foresight Linux ships with DVD support enabled"
+
+-- original TODO -- Og? --
+
+* Re-write Preface section
+* Fix Help link in Preface
 
 Software.xml
 
@@ -32,3 +34,6 @@ Applications.xml (May be moved to Userguide 2)
 
 * Add Liferea page
 * Add X-Chat page
+----
+
+* Packagekit stuff has been commented out or removed.
