@@ -1,0 +1,48 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="software-install">
+
+    <info>
+        <link type="guide" xref="index#advanced"/>
+        <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="stub"/>
+        <desc></desc>
+        <credit type="author">
+            <year>2009</year>
+            <name>Og Maciel</name>
+            <email>ogmaciel@gnome.org</email>
+        </credit>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>Searching and Adding Software</title>
+
+    <section>
+    <title>Searching and Installing from the command line</title>
+    <p>
+        To query local information about a package, and you will need to know
+        the exact package name, type:
+    </p>
+    <code>conary query &lt;packagename&gt;</code>
+    <p>
+        To search from the Foresight repository, type:
+    </p>
+    <code>conary repquery &lt;packagename&gt;</code>
+    <p>
+        To install the package, type:
+    </p>
+    <code>sudo conary update &lt;packagename&gt;</code>
+    </section>
+
+    <section>
+    <title>Searching rBuilder Online</title>
+    <p>
+        Another option to search for packages, is to search Foresight's
+        repository on rBuilder Online using your web browser: <link
+        href="http://www.rpath.org/rbuilder/repos/foresight/browse">http://www.rpath.org/rbuilder/repos/foresight/browse</link>.
+        Packages are sorted by letter. Once you have found the package you want
+        , see the other sections about how to install.
+    </p>
+    </section>
+
+</page>
