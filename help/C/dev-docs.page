@@ -1,0 +1,31 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="dev-docs">
+
+    <info>
+        <link type="guide" xref="index#get-involved"/>
+        <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="draft"/>
+        <desc></desc>
+        <credit type="author">
+            <year>2009</year>
+            <name>Og Maciel</name>
+            <email>ogmaciel@gnome.org</email>
+        </credit>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>Write documentation and contribute to the wiki</title>
+    <p>
+        All Foresight documentation is created and maintained on the wiki. Have
+        you found a new way to do something or see an error in the current
+        documentation? Add or edit the Foresight wiki so all users can take
+        advantage of your knowledge. 
+    </p>
+
+    <p>
+        <link href="http://wiki.foresightlinux.org">Visit the Foresight wiki
+        here</link>, and create an account to add or edit wiki pages.
+    </p>	
+
+</page>
