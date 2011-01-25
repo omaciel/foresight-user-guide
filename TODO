@@ -5,8 +5,6 @@ TODO
   + Post Installation Configuration
     - Video Card Binary Drivers # this needs some re-thinking, (e.g. DRM has
       been enabled for ATI)
-  + Sound and Video
-    - Sound Juicer
   + Adding and Removing Software
     - More missing
   + Getting Involved
@@ -37,3 +35,4 @@ Applications.xml (May be moved to Userguide 2)
 ----
 
 * Packagekit stuff has been commented out or removed.
+* Sound Juicer: not default package. Commented out.

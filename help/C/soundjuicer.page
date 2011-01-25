@@ -4,7 +4,7 @@
     id="sound-juicer">
 
     <info>
-        <link type="guide" xref="index#sound-video"/>
+        <!-- <link type="guide" xref="index#sound-video"/> -->
         <revision pkgversion="0.8" version="0.1" date="2009-09-09" status="draft"/>
         <desc>A clean, mean, and lean CD ripper.</desc>
         <credit type="author">
