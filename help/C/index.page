@@ -52,6 +52,10 @@
 
   <section id="advanced" style="2column">
     <title>Adding and Removing Software</title>
+    <p>
+        This chapter provides a high level overview of Conary, searching for
+        packages, adding packages and removing packages.
+    </p>
   </section>
 
   <section id="get-help" style="2column">
@@ -63,6 +67,11 @@
 
   <section id="get-involved" style="2column">
     <title>Getting Involved</title>
+    <p>
+        Foresight Linux is a volunteer based distribution.  Packaging,
+        documentation, security fixes and translation are done by users like
+        you.
+    </p>
   </section>
 
 </page>

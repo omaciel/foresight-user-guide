@@ -6,8 +6,13 @@ TODO
     - Video Card Binary Drivers # this needs some re-thinking, (e.g. DRM has
       been enabled for ATI)
   + Conary Overview: maybe want a rewrite about the features of conary
+  + Getting Help - Mailing Lists
   + Getting Involved
-    - More missing
+    - Report and triage bugs
+    - Write documentation and contribute to the wiki
+    - Help new users in IRC
+    - Join the Security Team
+    - Becoming a developer
 
   + Adding and Removing Software
    - Installing software from other rBuilder repositories
