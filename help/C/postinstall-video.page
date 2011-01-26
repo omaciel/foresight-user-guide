@@ -17,7 +17,25 @@
 
     <title>Video Card Binary Drivers</title>
 
+    <section>
+    <title>Nvidia Users</title>
     <p>
+        To install in a terminal using the command line, type:
     </p>
+    <code>sudo conary update nvidia nvidia-kernel</code>
+    <p>
+        Now run Nvidia's configuration tool from a terminal:
+    </p>
+    <code>sudo nvidia-xconfig</code>
+    </section>
 
+    <section>
+    <title>Post-Installation</title>
+    <p>
+        Once you have installed the drivers and configured them, you will need
+        to restart your current GNOME session, by running
+        <guiseq><gui>System</gui><gui>Log Out</gui></guiseq> and clicking on
+        <gui>Log Out</gui>.
+    </p>
+    </section>
 </page>
