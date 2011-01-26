@@ -6,7 +6,6 @@ TODO
   + Post Installation Configuration
     - Video Card Binary Drivers # this needs some re-thinking, (e.g. DRM has
       been enabled for ATI)
-  + Conary Overview: maybe want a rewrite about the features of conary
   + Getting Help - Mailing Lists
 
 # low priority
@@ -19,11 +18,9 @@ TODO
     - Join the Security Team
     - Becoming a developer
 
-* Add shortcut to view next/previous page.
 * Some sections are lacking overview.
 * The order of 'burning an image' and 'downloading' seems to be wrong.
-* "Frequently Asked Questions" has an reference to a wiki page. Need to confirm
-  the link works once wiki is brought up.
+  + Conary Overview: maybe want a rewrite about the features of conary
 * Check whether the description in 'WiFi and Wireless' still applies.
 * Add note about checking sha1sum
 * codecs.page says "Foresight does not ship with support for MP3 and
