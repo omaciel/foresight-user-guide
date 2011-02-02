@@ -3,7 +3,7 @@
     type="topic"
     id="codecs">
     <info>
-        <link type="guide" xref="index#sound-video"/>
+        <!-- <link type="guide" xref="index#sound-video"/> -->
         <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="stub"/>
         <desc>Install codecs to handle proprietary media formats.</desc>
         <credit type="author">

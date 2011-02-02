@@ -23,8 +23,6 @@ TODO
   + Conary Overview: maybe want a rewrite about the features of conary
 * Check whether the description in 'WiFi and Wireless' still applies.
 * Add note about checking sha1sum
-* codecs.page says "Foresight does not ship with support for MP3 and
-  DVD", while totem.page says "Foresight Linux ships with DVD support enabled"
 
 -- original TODO -- Og? --
 
