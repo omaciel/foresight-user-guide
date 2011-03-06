@@ -15,10 +15,11 @@
     </info>
     <title>Proprietary Codecs</title>
     <p>
-        Due to patent issues, Foresight does not ship with support for MP3 and
-        DVD.  Depending on the laws of your country, you do have the option to
-        install these codecs.  As Foresight can't know the origin of each user,
-        it is your responsbility to respect the patent laws of your country.
+        Due to patent issues, Foresight Linux does not ship with support for MP3
+        and DVD.  Depending on the laws of your country, you do have the option
+        to install these codecs.  As Foresight Linux can't know the origin of
+        each user, it is your responsbility to respect the patent laws of your
+        country.
     </p>
     <p>To install the codecs, from the command line type:</p>
     <code>sudo conary update group-codecs</code>
