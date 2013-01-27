@@ -31,20 +31,20 @@
     <p>
         To install the package, type:
     </p>
-    <code>sudo conary update &lt;packagename&gt;</code>
+    <code>sudo conary install &lt;packagename&gt;</code>
     <note style="tip"> <p>
-        The <cmd>update</cmd> action can be reverted using <cmd>conary rollback</cmd>.
+        The <cmd>install</cmd> action can be reverted using <cmd>conary rollback</cmd>.
     </p>
     <code>sudo conary rollback 1</code>
     </note>
     </section>
 
     <section>
-    <title>Searching rBuilder Online</title>
+    <title>Searching/Browse packages</title>
     <p>
         Another option to search for packages, is to search Foresight's
-        repository on rBuilder Online using your web browser: <link
-        href="http://www.rpath.org/rbuilder/repos/foresight/browse">http://www.rpath.org/rbuilder/repos/foresight/browse</link>.
+        repository on Foresight Linux Packages using your web browser: <link
+        href="http://p.zhangsen.org/">http://p.zhangsen.org/</link>.
         Packages are sorted by letter. Once you have found the package you want
         , see the other sections about how to install.
     </p>
