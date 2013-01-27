@@ -8,6 +8,8 @@ To run it, execute:
 which is the same as:
   $ yelp $PWD/help/C/
 
+If not using gnome, need to install packages "yelp" and "gnome-doc-utils"
+
 Hacking
 =======
 * Written in mallard [0].
