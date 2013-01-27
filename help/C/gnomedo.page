@@ -31,34 +31,30 @@
     <steps>
         <item>
             <p>Start an application, such as Banshee (music player):  Bring up GNOME Do by hitting super-space.  Start to type "Banshee".  It will autocomplete for you.  As soon as the Banshee icon appears, hit enter, and Banshee will start.</p>
+
+            <figure>
+                <title>GNOME Do starting Banshee</title>
+                <media type="image" src="figures/do-banshee.png" mime="image/png" style="right" />
+            </figure>
         </item>
-    </steps>
 
-    <figure>
-        <title>GNOME Do starting Banshee</title>
-        <media type="image" src="figures/do-banshee.png" mime="image/png" style="right" />
-    </figure>
-
-    <steps>
         <item>
             <p>You can quickly navigate to webpages by typing the URL.  Bring up GNOME Do by hitting super-space, enter a URL, such as www.google.com, and as it auto-completes and shows "Open URL" on the right, hit enter and it will open the URL you typed in your browser.</p>
+
+            <figure>
+                <title>GNOME Do opening a URL</title>
+                <media type="image" src="figures/do-url.png" mime="image/png" style="right" />
+            </figure>
         </item>
-    </steps>
 
-    <figure>
-        <title>GNOME Do opening a URL</title>
-        <media type="image" src="figures/do-url.png" mime="image/png" style="right" />
-    </figure>
-
-    <steps>
         <item>
             <p>You can quickly open a directory using GNOME Do.  Bring up GNOME Do by hitting super-space, and enter the directory name, such as /usr/lib/ and hit enter when GNOME Do shows open directory, as seen in the below screenshot:</p>
+
+            <figure>
+                <title>GNOME Do opening a directory</title>
+                <media type="image" src="figures/do-directory.png" mime="image/png" style="right" />
+            </figure>
         </item>
     </steps>
-
-    <figure>
-        <title>GNOME Do opening a directory</title>
-        <media type="image" src="figures/do-directory.png" mime="image/png" style="right" />
-    </figure>
 
 </page>

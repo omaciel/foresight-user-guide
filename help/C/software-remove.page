@@ -1,0 +1,41 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="software-remove">
+
+    <info>
+        <link type="guide" xref="index#advanced"/>
+        <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="stub"/>
+        <desc></desc>
+        <credit type="author">
+            <year>2009</year>
+            <name>Og Maciel</name>
+            <email>ogmaciel@gnome.org</email>
+        </credit>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>Removing Software</title>
+
+    <section>
+    <title>Removing a package using the command line</title>
+    <p>
+        To remove a software package from your system, at the command line type:
+    </p>
+    <code>sudo conary erase &lt;packagename&gt;</code>
+
+    <note style="warning">
+    <p>
+        Do not use the <cmd>conary remove</cmd> command, always use <cmd>conary
+        erase</cmd>.  Using <cmd>conary remove</cmd> to remove a packaged file
+        instructs Conary never to allow it to be installed again.
+    </p>
+    </note>
+    <note style="tip"> <p>
+        The <cmd>erase</cmd> action can be reverted using <cmd>conary rollback</cmd>.
+    </p>
+    <code>sudo conary rollback 1</code>
+    </note>
+    </section>
+
+</page>

@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if [ -f "guide/foresight-user-guide.xml" ];
+if [ -d "help/C/" ];
 then
-    exec yelp guide/foresight-user-guide.xml
+    exec yelp $PWD/help/C/
 else
-    exec yelp /usr/share/foresight-user-guide/help/C/foresight-user-guide.xml
+    exec yelp /usr/share/foresight-user-guide/help/C/
 fi

@@ -15,7 +15,7 @@
         <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
     </info>
 
-    <title>Installing.</title>
+    <title>Installing</title>
 
     <p>
         Once you have burned an image of Foresight Linux, put it in your CD or DVD drive, and reboot your computer.
@@ -26,7 +26,7 @@
     </p>
 
     <p>
-        At this point the CD will be ejected from the drive, and you will be prompted to reboot.  Take the CD out of your drive, reboot your computer, and you will be running Foresight!
+        At this point the CD will be ejected from the drive, and you will be prompted to reboot.  Take the CD out of your drive, reboot your computer, and you will be running Foresight Linux!
     </p>
 
 </page>

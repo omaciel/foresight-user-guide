@@ -17,23 +17,23 @@
 
     <title>Firefox Web Browser</title>
 
-    <p>Firefox is the default web browser for Foresight. Powered by the Gecko engine and developed by the Mozilla Foundation, Firefox features tabbed browsing, a customizable interface, and extensions and plugins.  Firefox is the world's most popular open source browser, available for Linux, Windows and Mac OS X.</p>
+    <p>Firefox is the default web browser for Foresight Linux. Powered by the Gecko engine and developed by the Mozilla Foundation, Firefox features tabbed browsing, a customizable interface, and extensions and plugins.  Firefox is the world's most popular open source browser, available for Linux, Windows and Mac OS X.</p>
 
     <figure>
         <title>Firefox Web Browser</title>
         <media type="image" src="figures/firefox.png" mime="image/png" style="right" height="75%" width="75%" />
     </figure>
 
-    <p>To start Firefox, choose <guiseq>Applications</guiseq> <guiseq>Internet</guiseq> <guiseq>Firefox Web Browser</guiseq>.  Firefox will start with Firefox's customized Google search page as the default page.</p>
+    <p>To start Firefox, choose <guiseq><gui>Applications</gui><gui>Internet</gui><gui>Firefox Web Browser</gui></guiseq>.  Firefox will start with Firefox's customized Google search page as the default page.</p>
 
     <section id="tabbed-browsing">
     <title>Tabbed Browsing</title>
-    <p>To open a new tab, hit ctrl-t or click <guiseq>File</guiseq> <guiseq>New Tab</guiseq>.  You can drag and drop tabs in the tab bar to change the order of the tabs currently open.  To close a tab click the x on the right hand sight of the tab.  Choose Tabs in the menu to quickly change which tab is the focus at any time.</p>
+    <p>To open a new tab, hit ctrl-t or click <guiseq><gui>File</gui><gui>New Tab</gui></guiseq>.  You can drag and drop tabs in the tab bar to change the order of the tabs currently open.  To close a tab click the x on the right hand side of the tab.</p>
     </section>
 
     <section id="add-ons">
-    <title>Add Ons</title>
-    <p>Add ons add additional functionality created by the community to add features.  To view add ons available for download, click <guiseq>Bookmarks</guiseq> <guiseq>Mozilla Firefox</guiseq> <guiseq>Customize Firefox</guiseq>.  This will take you to the Firefox home page where you can browse Add Ons available for download.  A few examples of extensions you can download include Greasemonkey which allows you to customize how webpages display, Ad blocker to hide online web ads, del.icio.us bookmarks manager to save and manage your online bookmarks, and more.  To learn more about the Add Ons available in Firefox, visit the <link href="https://addons.mozilla.org/en-US/firefox/">add ons page</link> at the Firefox web site.</p>
+    <title>Add-ons</title>
+    <p>Add-ons add additional functionality created by the community to add features.  To view add-ons available for download, click <guiseq><gui>Tools</gui><gui>Add-ons</gui></guiseq>.  A few examples of extensions you can download include Greasemonkey which allows you to customize how webpages display, Ad blocker to hide online web ads, del.icio.us bookmarks manager to save and manage your online bookmarks, and more.  To learn more about the Add-ons available in Firefox, visit the <link href="https://addons.mozilla.org/en-US/firefox/">add-ons page</link> at the Firefox web site.</p>
     </section>
 
     <section id="epiphany">

@@ -2,9 +2,8 @@
     xmlns:e="http://projectmallard.org/experimental/"
     type="topic"
     id="codecs">
-
     <info>
-        <link type="guide" xref="index#sound-video"/>
+        <!-- <link type="guide" xref="index#sound-video"/> -->
         <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="stub"/>
         <desc>Install codecs to handle proprietary media formats.</desc>
         <credit type="author">
@@ -14,11 +13,46 @@
         </credit>
         <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
     </info>
-
-    <title>Proprietary Codecs.</title>
-
+    <title>Proprietary Codecs</title>
     <p>
-        To be entered!
+        Due to patent issues, Foresight Linux does not ship with support for MP3
+        and DVD.  Depending on the laws of your country, you do have the option
+        to install these codecs.  As Foresight Linux can't know the origin of
+        each user, it is your responsbility to respect the patent laws of your
+        country.
     </p>
+    <p>To install the codecs, from the command line type:</p>
+    <code>sudo conary update group-codecs</code>
+    <section>
+    <title>Included Codecs</title>
+    <p>Codecs and support for audio and video files included in group-codecs:</p>
+
+    <list>
+    <item><p>
+    a52dec: A free library for decoding ATSC streams, including digital television and DVD, also known as AC-3.</p></item>
+    <item><p>
+    faac and faad2: AAC audio support.  (Does not include support for DRM wrapped AAC files, such as those purchased from iTunes.</p></item>
+    <item><p>
+    gst-plugins-bad: A set of proprietary plug-ins that are a work in progress that support various audio and video codecs.</p></item>
+    <item><p>
+    gst-plugins-ffmpeg: FFmpeg adds support for playing, editing and transcoding many different kinds of Video files, including AVI, Divx and Xvid, MPEG-2 and MPEG-4.</p></item>
+    <item><p>
+    gst-plugins-ugly: A set of proprietary plugins not legal in all countries, including audio and video codecs, including DVD playback.</p></item>
+    <item><p>
+    LAME: MP3 encoder.</p></item>
+    <item><p>
+    libdv: The Quasar DV codec for DV video used by most digital camcorders, typically that support IEEE 1394 / Firewire.</p></item>
+    <item><p>
+    libdvdread: DVD support fo playback of encrypted DVDs, such as most commerical movies.</p></item>
+    <item><p>
+    libid3tag: MP3 playback and ID3 tag support.</p></item>
+    <item><p>
+    libmpcdec: Support for Musepack (or MPC) files, formerly known as MPEGplus, MPEG+ or MP+.</p></item>
+    <item><p>
+    mpeg2dec: A program to decode MPEG-1 and MPEG-2 video streams.</p></item>
+    <item><p>
+    mplayerplug-in: A browser plugin (For Epiphany and Firefox) that streams audio and video right in your browser.</p></item>
+    </list>
+    </section>
 
 </page>

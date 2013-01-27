@@ -21,36 +21,9 @@
     The Foresight Wiki contains many howto's and information related to using
     and developing Foresight Linux. The wiki is contributed by users, and 
     contains the latest information about Foresight. 
-    <link href="http://issues.foresightlinux.org/confluence/homepage.action">
+    <link href="http://wiki.foresightlinux.org">
     Click here to visit the Foresight Wiki</link> and a search box is available
     in the upper right hand corner.
     </p>
-
-    <p>
-    To add content to the wiki, you will need to create an account. Creating an 
-    account is done through JIRA, Foresight's issue tracker. Creating
-    an account in JIRA also creates an account in the Foresight Wiki.
-    </p>
-
-    <steps>
-        <item>
-            <p><link href="http://issues.foresightlinux.org/secure/Dashboard.jspa">Visit 
-            the JIRA home page</link>.</p>
-        </item>
-        <item>
-            <p>The first time you visit the JIRA homepage, on the right hand of the page is the Login / Sign Up section.  Click on "Signup for an account". </p>
-        </item>
-        <item>
-            <p>Choose a Username and Password, and enter your name and email address and click sign up.</p>
-        </item>
-    </steps>
-
-    <figure>
-        <title>Create a JIRA account</title>
-        <desc>Creating an account on JIRA</desc>
-        <media type="image" src="figures/jira-create.png" mime="image/png" style="right">
-          <app>JIRA</app> account creation.
-        </media>
-    </figure>
 
 </page>

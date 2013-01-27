@@ -1,0 +1,61 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="conary">
+
+    <info>
+        <link type="guide" xref="index#advanced"/>
+        <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="stub"/>
+        <desc></desc>
+        <credit type="author">
+            <year>2009</year>
+            <name>Og Maciel</name>
+            <email>ogmaciel@gnome.org</email>
+        </credit>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>Conary Overview</title>
+
+    <p>
+        <app>Conary</app> is a distributed software management system developed
+        by rPath.  Conary is a package manager similar to <app>dpkg</app> or
+        <app>rpm</app>, in that it will install or remove software on your
+        computer, query which versions of software are installed, or help find
+        an available package for installation.  One key differentiator of
+        Conary not found in other package managers is that after the intitial
+        download of a package, updates are faster as Conary only downloads the
+        updates to the file, and doesn't require a full binary for download.
+    </p>
+    <p>
+        Conary also features the ability to rollback (or undo) updates, from
+        the last update made, or all updates ever made or even somewhere in
+        between.
+    </p>
+
+    <p>
+        For instance lets say you want to install the Apache webserver package.
+        You could do so by typing the following in a terminal:
+    </p>
+
+    <code>sudo conary update httpd</code>
+
+    <p>
+        Then (assuming that this was the last update you did) you can roll it
+        back with the following:
+    </p>
+
+    <code>sudo conary rollback 1</code>
+
+    <p>
+        Conary can also show you what can be rolled back as well. To get this
+        list just run:
+    </p>
+
+    <code>sudo conary rblist</code>
+
+    <p>
+        Conary does require an active internet connection.
+    </p>
+
+</page>

@@ -1,12 +1,12 @@
 <page xmlns="http://projectmallard.org/1.0/"
     xmlns:e="http://projectmallard.org/experimental/"
     type="topic"
-    id="help-faq">
+    id="dev-help">
 
     <info>
-        <link type="guide" xref="index#get-help"/>
+        <link type="guide" xref="index#get-involved"/>
         <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="draft"/>
-        <desc>Foresight FAQ.</desc>
+        <desc></desc>
         <credit type="author">
             <year>2009</year>
             <name>Og Maciel</name>
@@ -15,12 +15,12 @@
         <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
     </info>
 
-    <title>Frequently Asked Questions</title>
-
+    <title>Help new users in IRC</title>
     <p>
-        Please check the FAQ page on the Foresight Wiki to see if your question
-        or problem is a commonly asked question. Click
-        <link href="http://wiki.foresightlinux.org/wiki/display/docs/FAQ">here</link> to view the
-        Frequently Asked Questions.
-    </p>
+        New users with questions are always stopping by in IRC to ask
+        questions.  One of the quickest and easiest ways to get involved with
+        Foresight is to help answer these questions in IRC. Join us in
+        #foresight on Freenode, and contribute to the live chat and discussion.
+    </p>	
+
 </page>

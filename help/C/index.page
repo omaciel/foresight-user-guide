@@ -2,7 +2,6 @@
       xmlns:e="http://projectmallard.org/experimental/"
       type="guide"
       id="index">
-
   <info>
     <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="draft"/>
     <credit type="author">
@@ -12,57 +11,55 @@
     </credit>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
   </info>
-
   <title>Foresight User Guide</title>
-
     <figure>
         <title />
         <desc />
         <media type="image" src="figures/foresight-logo.png" mime="image/png" style="top" />
     </figure>
-
   <section id="preface" style="2column">
     <title>Preface</title>
     <p>
         The Getting Started with Foresight Linux User Guide provides a high level overview of using Foresight Linux, including the Conary package manager, for users new to Linux or Foresight.
     </p>
   </section>
-
   <section id="installing" style="2column">
     <title>Installing Foresight</title>
     <p>
-        This section provide a high level overview of  downloading, burning and installing the latest version of Foresight.
+        This section provides a high level overview of downloading, burning and installing the latest version of Foresight.
     </p>
   </section>
-
   <section id="post-install" style="2column">
     <title>Post Installation Configuration</title>
     <p>
-        The Post Installation Configuration of the Getting Started with Foresight Linux Userguide will take you through using <app>sudo</app>; using <app>PackageKit</app> to update your computer with the latest dates, setting up your video card and enabling 3D effects with <app>Compiz Fusion</app>.
+        The Post Installation Configuration of the Getting Started with Foresight Linux Userguide will take you through using <app>sudo</app>; updating your computer with the latest updates, setting up your video card and enabling 3D effects with <app>Compiz Fusion</app>.
     </p>
   </section>
-
   <section id="productivity" style="2column">
     <title>Productivity</title>
   </section>
-
   <section id="sound-video" style="2column">
     <title>Sound and Video</title>
   </section>
-
   <section id="advanced" style="2column">
     <title>Adding and Removing Software</title>
+    <p>
+        This chapter provides a high level overview of Conary, searching for
+        packages, adding packages and removing packages.
+    </p>
   </section>
-
   <section id="get-help" style="2column">
     <title>Getting Help</title>
     <p>
         This section will inform you of the different ways to get help including a wiki, email and live chat.
     </p>
   </section>
-
   <section id="get-involved" style="2column">
     <title>Getting Involved</title>
+    <p>
+        Foresight Linux is a volunteer based distribution.  Packaging,
+        documentation, security fixes and translation are done by users like
+        you.
+    </p>
   </section>
-
 </page>

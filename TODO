@@ -1,8 +1,33 @@
 TODO
 
+* Fill these section with real content! (Copy-and-paste from respective pages
+  in the 'guide' dir).
+# high priority
+  + Post Installation Configuration
+    - Video Card Binary Drivers # this needs some re-thinking, (e.g. DRM has
+      been enabled for ATI)
+  + Getting Help - Mailing Lists
+
+# low priority
+  + Adding and Removing Software
+   - Installing software from other rBuilder repositories
+   - Compiling custom software and installing development tools
+   - No need to have "Updating with Package Kit" and "Updating via the command
+     line". The post-install chapter already talks about updating.
+  + Getting Involved
+    - Join the Security Team
+    - Becoming a developer
+
+* Some sections are lacking overview.
+* The order of 'burning an image' and 'downloading' seems to be wrong.
+  + Conary Overview: maybe want a rewrite about the features of conary
+* Check whether the description in 'WiFi and Wireless' still applies.
+* Add note about checking sha1sum
+
+-- original TODO -- Og? --
+
 * Re-write Preface section
 * Fix Help link in Preface
-
 
 Software.xml
 
@@ -13,3 +38,7 @@ Applications.xml (May be moved to Userguide 2)
 
 * Add Liferea page
 * Add X-Chat page
+----
+
+* Packagekit stuff has been commented out or removed.
+* Sound Juicer: not default package. Commented out.

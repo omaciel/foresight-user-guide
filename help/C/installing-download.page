@@ -15,14 +15,14 @@
         <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
     </info>
 
-    <title>Downloading.</title>
+    <title>Downloading</title>
 
     <p>
-        The current release of Foresight Linux is 2.1.2. To download the latest version of Foresight, visit the <link href="http://www.foresightlinux.org/foresight-gnome/">downloads</link> page and download the CD image on 2 CDs, or the DVD image.
+        The current release of Foresight Linux is 2.5.0. To download the latest version of Foresight, visit the <link href="http://www.foresightlinux.org/download/">downloads</link> page and download the DVD image.
     </p>
 
     <p>
-        Foresight 2.1.2 features a new tar based installer, which is only available on the DVD ISO.  Installing the DVD should take less than 10 minutes to install, including formatting your hard drive.  It is highly recommended to use the DVD ISO if you can.
+        Foresight 2.5.0 features a new tar based installer. Installing the DVD should take less than 10 minutes to install, including formatting your hard drive.
     </p>
 
 </page>

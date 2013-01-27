@@ -6,7 +6,7 @@
     <info>
         <link type="guide" xref="index#post-install"/>
         <revision pkgversion="0.8" version="0.1" date="2009-09-08" status="stub"/>
-        <desc>Using Sudo.</desc>
+        <desc>Gain administrator privileges with sudo.</desc>
         <credit type="author">
             <year>2009</year>
             <name>Og Maciel</name>
@@ -15,9 +15,23 @@
         <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
     </info>
 
-    <title>Using Sudo.</title>
+    <title>Using Sudo</title>
 
     <p>
+        <cmd>sudo</cmd> is a command to allow you, logged in as a normal user,
+        to perform administrative tasks as root, the administrator of your
+        computer.  <cmd>sudo</cmd> is short for "superuser do".  A "superuser"
+        is the equivalent of an adminstrator on a Linux computer.  When
+        installing updates, drivers or changing configuration settings, you
+        will often have to perform those taks using the <cmd>sudo</cmd>
+        command.  You will be prompted for your administrative password to use
+        <cmd>sudo</cmd>.
     </p>
+
+    <figure>
+        <title>Using Sudo</title>
+        <desc></desc>
+        <media type="image" src="figures/sudo.png" mime="image/png" style="right" />
+    </figure>
 
 </page>

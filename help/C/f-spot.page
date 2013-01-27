@@ -18,13 +18,99 @@
     <title>F-Spot</title>
 
     <p>
-        To be entered!
+        <link href="http://www.f-spot.org">F-Spot</link> helps manage your
+        photos, including sharing, touch-up, finding and organizing your
+        images.  F-Spot supports the ability to tag your photos making it easy
+        to find and organize them, share them with popular photo sharing
+        websites, including Picasa, Flickr, Gallery and more, and basic editing
+        including sharpening your photos or rotating their size.
     </p>
 
     <figure>
-        <title>Foresight Linux default <gui>Desktop</gui> view</title>
-        <desc>The default <app>Desktop</app> view</desc>
-        <media type="image" src="figures/foresight-desktop.png" mime="image/png" style="right" />
-    </figure>
+        <title>F-Spot Photo Manager</title>
+        <desc></desc>
+        <media type="image" src="figures/f-spot.png" mime="image/png" style="right" />
+     </figure>
+
+    <section>
+    <title>Importing</title>
+    <p>
+        To start F-Spot, click the <guiseq><gui>Applications</gui>
+        <gui>Graphics</gui><gui>F-Spot Photo Manager</gui></guiseq>.  The
+        first time you run F-Spot, you will be asked to import your photos in
+        to F-Spot.  Click the drop down box, and select the folder in which
+        your photos have been saved in.  You can choose to add an entire folder
+        and directory, or click on the photo individually, or use shift and
+        click to choose multiple photos at the same time.
+    </p>
+    </section>
+
+    <section>
+    <title>Tagging</title>
+    <p>
+        You can apply tags, also called labels, to your photos, to quickly sort
+        and search through.  F-Spot comes with a number of default tags,
+        including Events, People, Favorites and Places.  To create a new label,
+        right click in the label menu on the left, and click create new tag.
+        Enter the name of your tag, and define a parent, such as Places.  For
+        example, if you have viewed the screenshot above, I have tagged the
+        photo's "Washington D.C." (where the photos were taken) and applied
+        Places as the parent tag.
+    </p>
+    <p>
+        To add the tag to a photo, right click on the photo (or photos) you
+        want to tag,  highlight <gui>Attach Tag</gui>, and click on
+        the tag you would like to apply.
+    </p>
+    </section>
+
+    <section>
+    <title>Editing</title>
+
+    <p>
+        F-Spot gives you the ability to perform minor edits to your photos by
+        clicking the "Edit Photo" button near the top of the program under the
+        menu..  You can adjust the color of your photos, crop the picture,
+        remove red-eye, straighten your photo, or add a description.  To learn
+        more about editing your photos, visit the F-Spot User Guide.
+    </p>
+    </section>
+
+    <section>
+    <title>Browsing</title>
+
+    <p>
+        Click the Browse button to view the photos thumbnails.  Alternatively,
+        you can zoom in and out by clicking the View menu, and choose Zoom In
+        or Out.  As you add photos to your collection, you can use the slider
+        widget above the photos to view on a timeline.
+    </p>
+
+    <p>
+        You can also view by tag, clicking on the tag on the left hand menu
+        will display all photos labeled with that particular tag.
+    </p>
+
+    <p>
+        To learn more about all the different ways to view your photos,
+        including full screen and slideshow, visit the F-Spot User Guide.
+    </p>
+    </section>
+
+    <section>
+    <title>Exporting</title>
+
+    <p>
+        F-spot gives you the ablity to export your photos to a number of
+        popular photo sharing services, including Flickr, Gallery or Picasa.
+        You can also export to a CD or folder to backup your photos.  Choose
+        the service you would like to export to, by clicking the File menu,
+        Export and click on the service.  F-spot will need you to authorize
+        your account the first time by clicking the Authorize button, which
+        will open a web page for you to log in to.  Click on the files you
+        would like to export, and click on the Export button.  To learn more,
+        visit the F-Spot User Guide.
+    </p>
+    </section>
 
 </page>
