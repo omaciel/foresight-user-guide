@@ -8,4 +8,4 @@ Icon=foresight-icon
 Terminal=false
 Type=Application
 Categories=GNOME;GTK;Core;
-OnlyShowIn=GNOME;
+OnlyShowIn=GNOME;LXDE;
