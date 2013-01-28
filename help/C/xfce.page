@@ -1,0 +1,31 @@
+<page xmlns="http://projectmallard.org/1.0/"
+    xmlns:e="http://projectmallard.org/experimental/"
+    type="topic"
+    id="xfce">
+
+    <info>
+        <link type="guide" xref="index#desktop"/>
+        <revision pkgversion="0.8" version="0.1" date="2013-01-28" status="draft"/>
+        <desc>Information about Xfce</desc>
+        <credit type="author">
+            <year>2013</year>
+            <name>Tomas Forsman</name>
+            <email>tforsman@foresightlinux.se</email>
+        </credit>
+        <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    </info>
+
+    <title>Foresight Xfce</title>
+        <media type="image" src="figures/xfce-desktop.png" mime="image/png" style="center" width="480" height="320"/>
+
+    <p>
+        To get started, you need to install xfce environment. Doesn't mather if you have Gnome or Lxde right now.
+    </p>
+
+        <code>sudo conary install group-xfce-dist</code>
+    <p>
+        This will install all packages that are needed for Xfce environment. Recommend to reboot afterwards, for being able to login to xfce environment.
+    </p>
+
+
+</page>
