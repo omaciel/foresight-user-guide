@@ -23,6 +23,12 @@
         The Getting Started with Foresight Linux User Guide provides a high level overview of using Foresight Linux, including the Conary package manager, for users new to Linux or Foresight.
     </p>
   </section>
+  <section id="desktop" style="2column">
+    <title>Different Desktop Environments</title>
+    <p>
+        To get more specific information about different desktop environments. Known issues, tweaking and installing.
+    </p>
+  </section>
   <section id="installing" style="2column">
     <title>Installing Foresight</title>
     <p>
